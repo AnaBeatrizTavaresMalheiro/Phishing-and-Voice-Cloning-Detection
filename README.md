@@ -124,6 +124,8 @@ A tendência e utilizar sistemas de detecção de deepfakes em qualquer forma de
 
 **1\) Personas**  <br>
 [Persona criado pelo Bruno]<br>
+<img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/0eefb65f-d01a-4f17-bbfc-10a05188dd5b" />
+
 •Ricardo Oliveira, analista de segurança – “prevenir antes que aconteça” <br><br>
 
 Ricardo trabalha há varios anos na area de segurança da informação em uma grande instituição financeira. Ele já enfrentou diversos tipos de fraude digital e percebe como os ataques de voice cloning e deep fake estão crescendo rapidamente. Ricardo sente que precisa de ferramentas cada vez mais avançadas para proteger tanto a empresa quanto os clientes, mas também vive sob pressão para apresentar resultados objetivos e relatórios que comprovem a eficácia das medidas adotadas. <br>
@@ -139,6 +141,8 @@ Objetivos práticos:<br>
 
 [Persona criado pela Ana]<br>
 • Fernanda Costa, advogada de compliance – “sem provas, não há ação”<br><br>
+<img width="626" height="626" alt="image" src="https://github.com/user-attachments/assets/025d1f14-20b2-4d14-859f-389a31b73eae" />
+
 Fernanda atua no departamento jurídico de uma empresa de telecomunicações e é responsável por garantir que todas as operações estejam em conformidade com normas legais e regulatórias. Nos últimos anos, ela tem se deparado com casos de clientes e parceiros que sofreram tentativas de fraude por meio de áudios manipulados. Sua maior preocupação é ter evidências sólidas para sustentar auditorias e processos, já que, sem documentação adequada, a empresa fica vulnerável a riscos legais e de reputação.<br>
 
 Objetivos pessoais:<br>
