@@ -240,12 +240,97 @@ Nome: Fernanda Costa | Idade: 35 anos <br> <br>
 **Dica: Cada membro de equipe deve pensar em cenários existentes na atualidade (que causam problemas para os usuários) e que a interface prevista ajudará a resolver o problema. Cenário de Análise/Problema é uma história triste. Não descreve a solução. Descreve somente o problema.**
 
 1) **Cenário de Análise/Problema**
+   
+### **Cenário de Análise/Problema 1 criado pela Ana]**
+ O Dr. Ricardo é perito contratado por um tribunal para analisar gravações de chamadas apresentadas como prova em um processo de estelionato. As partes divergiram: uma alega que a voz na gravação é da vítima; outra diz que foi adulterada por deepfake para incriminar alguém. O tribunal exige laudo técnico, mas hoje o perito só tem métodos manuais e tempo limitado. Ele sofre com incertezas: não consegue dizer com confiança se a voz foi sintetizada, se houve edição ou se há indícios de manipulação. A falta de um método automatizado e consistente retarda o processo, aumenta custos e gera insegurança jurídica.
 
-2) ## **Questões de Refinamento**
+### **Questões de Refinamento Análise/Problema 1 criado pela Ana**
+| Tipo de Questão  | Questão                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **Exploratória** | Formatos e qualidade de áudio recebidos pelo perito (mp3, wav, baixa taxa de bits, telefone). |
+| **Exploratória** | Necessidade de laudos dentro de padrões específicos.                     |
+| **Exploratória** | Métodos utilizados atualmente para análise das gravações.                |
+| **Exploratória** | Critérios usados pelo tribunal para validar um laudo.                    |
+| **Exploratória** | Indícios técnicos de deepfake aceitos judicialmente.                     |
+| **Verificação**  | Possibilidade de análise manual ser aceita em tribunal.                  |
+| **Verificação**  | Inclusão da detecção automática no fluxo de provas digitais jurídicas.   |
 
-3) **Refinamento do Cenário Análise/Problema**
+### **Refinamento do Cenário Análise/Problema 1 criado pela Ana**
 
-# 
+O Dr. Ricardo, perito judicial, recebe gravações em diferentes formatos, como **mp3 e wav**, muitas vezes com **qualidade ruim** devido a compressão ou gravações feitas em linha telefônica. Em grande parte dos casos, esses áudios chegam **sem metadados claros**, como data, hora ou origem, o que dificulta a análise.  
+
+Ele precisa seguir **requisitos legais e forenses**, respeitando padrões aceitos em laudos, mas hoje sua análise é feita de forma **manual e limitada**, o que demanda tempo e pode gerar incertezas. Ainda há dúvidas se os laudos devem apresentar apenas a **indicação de manipulação** ou também um **percentual de probabilidade**.  
+
+Outro desafio é a falta de **explicações interpretáveis** sobre o resultado da análise, algo importante para dar credibilidade no tribunal. Além disso, muitas vezes é necessário **exportar os relatórios em formato oficial (PDF ou XML)** para serem anexados em processos judiciais, o que exige ainda mais cuidado e padronização.  
+
+
+
+
+### **Cenário de Análise/Problema 2 criado pela Ana]**
+Carolina trabalha como Analista de Segurança da Informação de uma empresa financeira e recebe relatórios de clientes que sofreram tentativas de fraude por telefone. O time precisa priorizar incidentes, mas muitas ligações suspeitas são encaminhadas em massa para análise humana. É comum perder tempo com falsos positivos (áudios legítimos sinalizados) e falsos negativos (golpes avançam sem detecção). A equipe não tem uma forma rápida e confiável de distinguir entre manipulação sintética da voz e técnicas tradicionais de engenharia social, então investem tempo e recursos errados, expondo clientes a perdas financeiras.
+
+### **Questões de Refinamento Análise/Problema 2 criado pela Ana**
+
+| Tipo de Questão  | Questão                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **Exploratória** | Por que o setor recebe tantos áudios suspeitos em curto espaço de tempo? |
+| **Exploratória** | Por que falsos positivos e negativos atrapalham tanto a priorização de incidentes? |
+| **Exploratória** | Como os áudios são armazenados, processados e separados hoje?|
+| **Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
+| **Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
+| **Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
+
+### **Refinamento do Cenário Análise/Problema 2 criado pela Ana**
+Carolina, analista de segurança em uma instituição financeira, **recebe diariamente um grande volume de áudios suspeitos vindos do atendimento ao cliente**. Esses áudios podem ser **deepfakes de voz ou golpes de engenharia social**, mas a equipe não possui hoje uma forma automática de diferenciá-los.  
+
+Na prática, o time perde tempo com falsos positivos, quando gravações legítimas são marcadas como fraude, e também com falsos negativos, **quando golpes não são detectados e chegam ao cliente**. Como atua em **ambiente de pressão por mais segurança**, a análise manual acaba atrasando a resposta e aumenta o risco de perdas financeiras.  
+
+Outro desafio é a necessidade de integração com sistemas já usados pelo setor para respostas dos incidentes. Além disso, os analistas precisam que a solução apresente resultados explicáveis, permitindo entender por que determinado áudio foi sinalizado.  
+
+Para ser útil no dia a dia, a triagem não pode ser apenas binária, **sendo necessário apresentar um score probabilístico**, ou seja, um score de confiança que ajude a priorizar os casos mais críticos e reduzir o tempo gasto com investigações manuais.
+
+
+
+### **Cenário de Análise/Problema 3 criado pelo Bruno]**
+
+
+### **Questões de Refinamento Análise/Problema 3 criado pelo Bruno**
+
+| Tipo de Questão  | Questão                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **Exploratória** |  |
+| **Exploratória** | |
+| **Exploratória** | |
+| **Exploratória** |  |
+| **Exploratória** | |
+| **Verificação**  | |
+| **Verificação**  | |
+
+### **Refinamento do Cenário Análise/Problema 3 criado pelo Bruno**
+
+
+
+
+### **Cenário de Análise/Problema 4 criado pelo Bruno]**
+
+
+### **Questões de Refinamento Análise/Problema 4 criado pelo Bruno**
+
+| Tipo de Questão  | Questão                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| **Exploratória** |  |
+| **Exploratória** | |
+| **Exploratória** | |
+| **Exploratória** |  |
+| **Exploratória** | |
+| **Verificação**  | |
+| **Verificação**  | |
+
+### **Refinamento do Cenário Análise/Problema 4 criado pelo Bruno**
+
+
+
+
 
 # **Entrega 5  (data) \[em andamento/concluído\]**
 
