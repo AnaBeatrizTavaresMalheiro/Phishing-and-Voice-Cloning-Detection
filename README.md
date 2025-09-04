@@ -125,34 +125,17 @@ A tendência e utilizar sistemas de detecção de deepfakes em qualquer forma de
 **1\) Personas**  <br>
 [Persona criado pelo Bruno]<br>
 
-•Ricardo Oliveira, analista de segurança – “prevenir antes que aconteça” <br><br>
+•Persona primária: Ricardo Oliveira, analista de segurança – “prevenir antes que aconteça” <br><br>
 <img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/0eefb65f-d01a-4f17-bbfc-10a05188dd5b" />
 
-Ricardo trabalha há varios anos na area de segurança da informação em uma grande instituição financeira. Ele já enfrentou diversos tipos de fraude digital e percebe como os ataques de voice cloning e deep fake estão crescendo rapidamente. Ricardo sente que precisa de ferramentas cada vez mais avançadas para proteger tanto a empresa quanto os clientes, mas também vive sob pressão para apresentar resultados objetivos e relatórios que comprovem a eficácia das medidas adotadas. <br>
-
-Objetivos pessoais:<br>
-	•	Garantir que a empresa esteja sempre um passo à frente dos fraudadores.<br>
-	•	Reforçar sua reputação como especialista capaz de antecipar ameaças.<br>
-
-Objetivos práticos:<br>
-	•	Validar rapidamente se um áudio é legítimo ou fraudulento.<br>
-	•	Integrar o sistema de detecção às plataformas já existentes de monitoramento de segurança.<br>
+Ricardo trabalha há varios anos na area de segurança da informação em uma grande instituição financeira. Ele é 'expert' em cybersegurança, e tem como principal respoonsabilidade proteger todos os funcionários e também todos os clientes da empresa. Dessa forma, Ricardo está sempre atento com os avanços da tecnologia, e percebeu que a Inteligencia Artificial generativa ficou muito acessivel a todo, o que é de fato uma porta para que criminosos às usem e criem novas formas de explorar suas vítimas. Além disso, tem visto tambem que o número de ataques de phishing feitos em telefonemas tem tido um aumento, muito por conta dos deepfakes vocais muito realistas gerados por essas inteligencias sartificiais. Dessa forma, Ricardo sente que precisa de ferramentas confiáveis para que consiga detectar rapidamente esses ataques por telefonema. Ricardo sente que precisa de uma ferramenta precisa e facil de integra-la no dia a dia dos funcionários e clientes da empresa. Com uma ferramenta assim, ele conseguiria garantir essa segurança e permitir principamente que a empresa ganhe ainda mais credibilidade <br>
 
 
 [Persona criado pela Ana]<br>
-• Fernanda Costa, advogada de compliance – “sem provas, não há ação”<br><br>
+• Persona primária: Fernanda Costa, advogada de compliance – “sem provas, não há ação”<br><br>
 <img width="300" height="355" alt="image" src="https://github.com/user-attachments/assets/025d1f14-20b2-4d14-859f-389a31b73eae" />
 
-Fernanda atua no departamento jurídico de uma empresa de telecomunicações e é responsável por garantir que todas as operações estejam em conformidade com normas legais e regulatórias. Nos últimos anos, ela tem se deparado com casos de clientes e parceiros que sofreram tentativas de fraude por meio de áudios manipulados. Sua maior preocupação é ter evidências sólidas para sustentar auditorias e processos, já que, sem documentação adequada, a empresa fica vulnerável a riscos legais e de reputação.<br>
-
-Objetivos pessoais:<br>
-	•	Manter a credibilidade profissional e proteger a imagem da empresa.<br>
-	•	Sentir segurança ao tomar decisões jurídicas baseadas em evidências.<br>
-
-Objetivos práticos:<br>
-	•	Coletar de forma precisa registros de tentativas de golpes por falsificação de voz.<br>
-	•	Contar com registros que possam ser usados em auditorias internas e externas.<br>
-
+Fernanda atua no departamento jurídico de uma empresa de telecomunicações e é responsável por garantir que todas as operações que envolvam transferencia de dados sensíveis estejam em conformidade com normas legais e regulatórias. Nesse sentido, ela precisa que as informações da empresa não sejam passadas para pessoas erradas, ou seja, precis garantir que a pessoa com qual estará enviando os dados, seja realmente a pessoa correta e não um criminoso. Essa preocupação se intensificou pois recentemente ela tem se deparado com muitos casos de clientes e parceiros que sofreram tentativas de fraude por meio de áudios manipulados a partir de inteligencia artifical. Dessa forma, ela sente a necessidade de ter uma ferramenta confiável que consiga claramente identificar quando for um áudio manipulado na linha. Dessa forma, Fernanda conseguirá, além de proteger seus clientes, gerar provas para sustentar processos como também garantir que a empresa passe em audições de segurança.<br>
  
 **2\) Mapa de Empatia \[1 por equipe\]**<br>
 
