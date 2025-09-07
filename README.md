@@ -125,7 +125,7 @@ A tendência e utilizar sistemas de detecção de deepfakes em qualquer forma de
 
 [Persona criado por Bruno e Ana]
 • Persona primária: João Benedito, aposentado e dono de casa – “qualquer ajuda é bem vinda”<br><br>
-<img width="944" height="1000" alt="image" src="https://github.com/user-attachments/assets/7e82af78-0aed-4672-899b-ec622369cf4c" />
+<img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/7e82af78-0aed-4672-899b-ec622369cf4c" />
 
 
 João tem 65 anos, é aposentado e vive em São Bernardo do Campo, perto dos filhos e netos, com quem gosta de passar grande parte do tempo. Ele utiliza o celular principalmente para falar com a família, resolver questões do dia a dia e, ocasionalmente, para acessar serviços online. Apesar de usar aplicativos de mensagens e chamadas com frequência, João não tem familiaridade profunda com tecnologia e costuma sentir insegurança quando recebe ligações de números desconhecidos ou mensagens suspeitas. Esse receio vem de experiências anteriores: algumas vezes quase caiu em golpes de falsas centrais de atendimento e, em outras, só não foi enganado porque pediu ajuda a um parente antes de responder.<br>
@@ -134,7 +134,7 @@ Para João, a principal necessidade é ter um recurso simples e acessível que o
 
 [Persona criado pela Ana]<br>
 • Persona primária: Fernanda Costa, advogada de compliance – “sem provas, não há ação”<br><br>
-<img width="300" height="355" alt="image" src="https://github.com/user-attachments/assets/025d1f14-20b2-4d14-859f-389a31b73eae" />
+<img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/025d1f14-20b2-4d14-859f-389a31b73eae" />
 
 Fernanda tem 35 anos e trabalha no departamento jurídico de uma grande empresa de telecomunicações. Sua função é garantir que todas as operações envolvendo transferência de dados sensíveis estejam alinhadas às normas legais e regulatórias em vigor. Com uma carreira consolidada na área jurídica e experiência em compliance, Fernanda é detalhista, organizada e extremamente cautelosa em suas decisões. Apesar de não ter amplo conhecimento em tecnologia, reconhece a importância crescente da segurança digital e dedica parte de sua rotina a compreender os riscos legais e operacionais que podem impactar a empresa e seus clientes. <br>
 Nos últimos meses, Fernanda se deparou com um aumento de tentativas de fraude baseadas em áudios manipulados por inteligência artificial, o que elevou sua preocupação em relação à autenticidade das comunicações. Suas necessidades estão voltadas a ferramentas que ofereçam clareza, confiabilidade e simplicidade no uso, sem exigir conhecimentos técnicos avançados. Mais do que detectar fraudes, ela busca soluções que garantam segurança jurídica, gerem provas robustas para processos e auxiliem a empresa a manter conformidade em auditorias, protegendo assim clientes, parceiros e a própria reputação da organização.
