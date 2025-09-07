@@ -239,41 +239,41 @@ Com base na informação, Fernanda imediatamente interrompe o envio dos document
 ### **Questões de Refinamento Análise/Problema 1 criado pela Ana**
 | Tipo de Questão  | Questão                                                                 |
 |------------------|-------------------------------------------------------------------------|
-| **Exploratória** | Formatos e qualidade de áudio recebidos pelo perito (mp3, wav, baixa taxa de bits, telefone). |
-| **Exploratória** | Necessidade de laudos dentro de padrões específicos.                     |
-| **Exploratória** | Métodos utilizados atualmente para análise das gravações.                |
-| **Exploratória** | Critérios usados pelo tribunal para validar um laudo.                    |
-| **Exploratória** | Indícios técnicos de deepfake aceitos judicialmente.                     |
-| **Verificação**  | Possibilidade de análise manual ser aceita em tribunal.                  |
-| **Verificação**  | Inclusão da detecção automática no fluxo de provas digitais jurídicas.   |
+| **01 - Exploratória** | Formatos e qualidade de áudio recebidos pelo perito (mp3, wav, baixa taxa de bits, telefone). |
+| **02 - Exploratória** | Necessidade de laudos dentro de padrões específicos.                     |
+| **03 - Exploratória** | Métodos utilizados atualmente para análise das gravações.                |
+| **04 - Exploratória** | Critérios usados pelo tribunal para validar um laudo.                    |
+| **05 - Exploratória** | Indícios técnicos de deepfake aceitos judicialmente.                     |
+| **06 - Verificação**  | Possibilidade de análise manual ser aceita em tribunal.                  |
+| **07 - Verificação**  | Inclusão da detecção automática no fluxo de provas digitais jurídicas.   |
+| **08 - objetivo** | Por que ele precisa verificar esses audios?                     |
+| **09 - Objetivo** | Qual a precondição para que ele consiga analisar os áudios?.                |
+| **10 - Ambiente** | Qual a pressão envolvida nessa análise?                    |
+| **11 - Atores** | Quem vai realmente se beneficiar com a análise correta?                     |
+| **12 - evento**  | Qual evento realmente dispara a necessidade da análise?                  |
+| **13 - Avaliação**  | Como ele sabe se a análise foi feita com sucesso?   |
 
 ### **Refinamento do Cenário Análise/Problema 1 criado pela Ana**
 
-O Dr. Ricardo, perito judicial, recebe gravações em diferentes formatos, como **mp3 e wav**, muitas vezes com **qualidade ruim** devido a compressão ou gravações feitas em linha telefônica. Em grande parte dos casos, esses áudios chegam **sem metadados claros**, como data, hora ou origem, o que dificulta a análise.  
+O Dr. Ricardo, perito judicial, recebe gravações em diferentes formatos, como mp3 e wav [01], muitas vezes com qualidade ruim [01] ou sem metadados claros [01], o que dificulta a análise. Ele precisa verificar esses áudios para confirmar indícios de manipulação e apoiar decisões judiciais [08], mas só consegue iniciar quando o material chega íntegro e em formatos aceitos [09].<br>
 
-Ele precisa seguir **requisitos legais e forenses**, respeitando padrões aceitos em laudos, mas hoje sua análise é feita de forma **manual e limitada**, o que demanda tempo e pode gerar incertezas. Ainda há dúvidas se os laudos devem apresentar apenas a **indicação de manipulação** ou também um **percentual de probabilidade**.  
+Sua rotina é marcada pela pressão de prazos processuais e pela responsabilidade de não comprometer a credibilidade do tribunal [10]. Ele deve seguir padrões legais e forenses [02], embora hoje trabalhe de forma manual e limitada [03][06], o que gera incertezas. Persistem dúvidas se os laudos devem trazer apenas indicação de manipulação ou também percentuais de probabilidade [05]. Nessa dinâmica, juízes e advogados [11] são os principais beneficiados pela análise correta.<br>
 
-Outro desafio é a falta de **explicações interpretáveis** sobre o resultado da análise, algo importante para dar credibilidade no tribunal. Além disso, muitas vezes é necessário **exportar os relatórios em formato oficial (PDF ou XML)** para serem anexados em processos judiciais, o que exige ainda mais cuidado e padronização.  
-
-
-
-
-### **Cenário de Análise/Problema 2 criado pela Ana]**
-Carolina trabalha como Analista de Segurança da Informação de uma empresa financeira e recebe relatórios de clientes que sofreram tentativas de fraude por telefone. O time precisa priorizar incidentes, mas muitas ligações suspeitas são encaminhadas em massa para análise humana. É comum perder tempo com falsos positivos (áudios legítimos sinalizados) e falsos negativos (golpes avançam sem detecção). A equipe não tem uma forma rápida e confiável de distinguir entre manipulação sintética da voz e técnicas tradicionais de engenharia social, então investem tempo e recursos errados, expondo clientes a perdas financeiras.
+O evento que dispara a perícia é o recebimento de um áudio contestado em tribunal [12]. Ricardo enfrenta a falta de explicações interpretáveis [04][05] e a necessidade de exportar relatórios formais em PDF ou XML [02][07]. Apesar de aplicar processos padrões e que seguem as boas práticas no quesito de análise de áudio, não consegue ter certeza se realmente é ou não um áudio manipulado [13].
 
 ### **Questões de Refinamento Análise/Problema 2 criado pelo Bruno**
 
 | Tipo de Questão  | Questão                                                                 |
 |------------------|-------------------------------------------------------------------------|
-| **Exploratória** | Por que o setor recebe tantos áudios suspeitos em curto espaço de tempo? |
-| **Exploratória** | Por que falsos positivos e negativos atrapalham tanto a priorização de incidentes? |
-| **Exploratória** | Como os áudios são armazenados, processados e separados hoje?|
-| **Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
-| **Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
-| **Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
+| **01 - Exploratória** | Por que o setor recebe tantos áudios suspeitos em curto espaço de tempo? |
+| **02 - Exploratória** | Por que falsos positivos e negativos atrapalham tanto a priorização de incidentes? |
+| **03 - Exploratória** | Como os áudios são armazenados, processados e separados hoje?|
+| **04 - Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
+| **05 - Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
+| **06 - Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
 
-### **Refinamento do Cenário Análise/Problema 2 criado pela Ana**
-Carolina, analista de segurança em uma instituição financeira, **recebe diariamente um grande volume de áudios suspeitos vindos do atendimento ao cliente**. Esses áudios podem ser **deepfakes de voz ou golpes de engenharia social**, mas a equipe não possui hoje uma forma automática de diferenciá-los.  
+### **Refinamento do Cenário Análise/Problema 2 criado pelo Bruno**
+Carolina, analista de segurança em uma instituição financeira, **recebe diariamente um grande volume de áudios suspeitos vindos do atendimento ao cliente[01]**. Esses áudios podem ser **deepfakes de voz ou golpes de engenharia social**, mas a equipe não possui hoje uma forma automática de diferenciá-los.  
 
 Na prática, o time perde tempo com falsos positivos, quando gravações legítimas são marcadas como fraude, e também com falsos negativos, **quando golpes não são detectados e chegam ao cliente**. Como atua em **ambiente de pressão por mais segurança**, a análise manual acaba atrasando a resposta e aumenta o risco de perdas financeiras.  
 
