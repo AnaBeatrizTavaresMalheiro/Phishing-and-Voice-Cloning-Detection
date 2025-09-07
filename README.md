@@ -271,6 +271,12 @@ O evento que dispara a perícia é o recebimento de um áudio contestado em trib
 | **04 - Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
 | **05 - Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
 | **06 - Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
+| **07 - Exploratória** | Por que o setor recebe tantos áudios suspeitos em curto espaço de tempo? |
+| **08 - Exploratória** | Por que falsos positivos e negativos atrapalham tanto a priorização de incidentes? |
+| **09 - Exploratória** | Como os áudios são armazenados, processados e separados hoje?|
+| **10 - Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
+| **11 - Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
+| **12 - Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
 
 ### **Refinamento do Cenário Análise/Problema 2 criado pelo Bruno**
 Carolina, analista de segurança em uma instituição financeira, **recebe diariamente um grande volume de áudios suspeitos vindos do atendimento ao cliente[01]**. Esses áudios podem ser **deepfakes de voz ou golpes de engenharia social**, mas a equipe não possui hoje uma forma automática de diferenciá-los.  
