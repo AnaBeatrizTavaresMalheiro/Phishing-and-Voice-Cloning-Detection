@@ -261,7 +261,7 @@ Outro desafio é a falta de **explicações interpretáveis** sobre o resultado 
 ### **Cenário de Análise/Problema 2 criado pela Ana]**
 Carolina trabalha como Analista de Segurança da Informação de uma empresa financeira e recebe relatórios de clientes que sofreram tentativas de fraude por telefone. O time precisa priorizar incidentes, mas muitas ligações suspeitas são encaminhadas em massa para análise humana. É comum perder tempo com falsos positivos (áudios legítimos sinalizados) e falsos negativos (golpes avançam sem detecção). A equipe não tem uma forma rápida e confiável de distinguir entre manipulação sintética da voz e técnicas tradicionais de engenharia social, então investem tempo e recursos errados, expondo clientes a perdas financeiras.
 
-### **Questões de Refinamento Análise/Problema 2 criado pela Ana**
+### **Questões de Refinamento Análise/Problema 2 criado pelo Bruno**
 
 | Tipo de Questão  | Questão                                                                 |
 |------------------|-------------------------------------------------------------------------|
@@ -280,49 +280,6 @@ Na prática, o time perde tempo com falsos positivos, quando gravações legíti
 Outro desafio é a necessidade de integração com sistemas já usados pelo setor para respostas dos incidentes. Além disso, os analistas precisam que a solução apresente resultados explicáveis, permitindo entender por que determinado áudio foi sinalizado.  
 
 Para ser útil no dia a dia, a triagem não pode ser apenas binária, **sendo necessário apresentar um score probabilístico**, ou seja, um score de confiança que ajude a priorizar os casos mais críticos e reduzir o tempo gasto com investigações manuais.
-
-
-
-### **Cenário de Análise/Problema 3 criado pelo Bruno]**
-
-
-### **Questões de Refinamento Análise/Problema 3 criado pelo Bruno**
-
-| Tipo de Questão  | Questão                                                                 |
-|------------------|-------------------------------------------------------------------------|
-| **Exploratória** |  |
-| **Exploratória** | |
-| **Exploratória** | |
-| **Exploratória** |  |
-| **Exploratória** | |
-| **Verificação**  | |
-| **Verificação**  | |
-
-### **Refinamento do Cenário Análise/Problema 3 criado pelo Bruno**
-
-
-
-
-### **Cenário de Análise/Problema 4 criado pelo Bruno]**
-
-
-### **Questões de Refinamento Análise/Problema 4 criado pelo Bruno**
-
-| Tipo de Questão  | Questão                                                                 |
-|------------------|-------------------------------------------------------------------------|
-| **Exploratória** |  |
-| **Exploratória** | |
-| **Exploratória** | |
-| **Exploratória** |  |
-| **Exploratória** | |
-| **Verificação**  | |
-| **Verificação**  | |
-
-### **Refinamento do Cenário Análise/Problema 4 criado pelo Bruno**
-
-
-
-
 
 # **Entrega 5  (data) \[em andamento/concluído\]**
 
