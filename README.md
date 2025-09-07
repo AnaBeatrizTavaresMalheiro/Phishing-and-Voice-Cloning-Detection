@@ -121,21 +121,31 @@ A aplicação se insere no contexto de cibersegurança, com foco na identificaç
 A tendência e utilizar sistemas de detecção de deepfakes em qualquer forma de áudio utilizado nos dispositivos. Tanto para gravações como áudios coletados em tempo real como por exemplo em ligações<br>
 
 # Entrega 3 - (Concluído)<br>
-
 **1\) Personas**  <br>
-[Persona criado pelo Bruno]<br>
 
-•Persona primária: Ricardo Oliveira, analista de segurança – “prevenir antes que aconteça” <br><br>
-<img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/0eefb65f-d01a-4f17-bbfc-10a05188dd5b" />
+[Persona criado por Bruno e Ana]
+• Persona primária: João Benedito, aposentado e dono de casa – “qualquer ajuda é bem vinda”<br><br>
+<img width="944" height="1000" alt="image" src="https://github.com/user-attachments/assets/7e82af78-0aed-4672-899b-ec622369cf4c" />
 
-Ricardo trabalha há varios anos na area de segurança da informação em uma grande instituição financeira. Ele é 'expert' em cybersegurança, e tem como principal respoonsabilidade proteger todos os funcionários e também todos os clientes da empresa. Dessa forma, Ricardo está sempre atento com os avanços da tecnologia, e percebeu que a Inteligencia Artificial generativa ficou muito acessivel a todo, o que é de fato uma porta para que criminosos às usem e criem novas formas de explorar suas vítimas. Além disso, tem visto tambem que o número de ataques de phishing feitos em telefonemas tem tido um aumento, muito por conta dos deepfakes vocais muito realistas gerados por essas inteligencias sartificiais. Dessa forma, Ricardo sente que precisa de ferramentas confiáveis para que consiga detectar rapidamente esses ataques por telefonema. Ricardo sente que precisa de uma ferramenta precisa e facil de integra-la no dia a dia dos funcionários e clientes da empresa. Com uma ferramenta assim, ele conseguiria garantir essa segurança e permitir principamente que a empresa ganhe ainda mais credibilidade <br>
+
+João tem 65 anos, é aposentado e vive em São Bernardo do Campo, perto dos filhos e netos, com quem gosta de passar grande parte do tempo. Ele utiliza o celular principalmente para falar com a família, resolver questões do dia a dia e, ocasionalmente, para acessar serviços online. Apesar de usar aplicativos de mensagens e chamadas com frequência, João não tem familiaridade profunda com tecnologia e costuma sentir insegurança quando recebe ligações de números desconhecidos ou mensagens suspeitas. Esse receio vem de experiências anteriores: algumas vezes quase caiu em golpes de falsas centrais de atendimento e, em outras, só não foi enganado porque pediu ajuda a um parente antes de responder.<br>
+Para João, a principal necessidade é ter um recurso simples e acessível que o ajude a confirmar se a voz ou a mensagem recebida são autênticas. Ele busca clareza e facilidade, sem depender de explicações técnicas complexas, pois quer confiar que uma ferramenta esteja “cuidando dele” enquanto conversa com alguém. Mais do que apenas evitar prejuízos financeiros, João deseja sentir tranquilidade e autonomia para usar o telefone e os aplicativos sem precisar pedir ajuda constantemente, protegendo-se de criminosos que exploram sua falta de conhecimento tecnológico.<br>
 
 
 [Persona criado pela Ana]<br>
 • Persona primária: Fernanda Costa, advogada de compliance – “sem provas, não há ação”<br><br>
 <img width="300" height="355" alt="image" src="https://github.com/user-attachments/assets/025d1f14-20b2-4d14-859f-389a31b73eae" />
 
-Fernanda atua no departamento jurídico de uma empresa de telecomunicações e é responsável por garantir que todas as operações que envolvam transferencia de dados sensíveis estejam em conformidade com normas legais e regulatórias. Nesse sentido, ela precisa que as informações da empresa não sejam passadas para pessoas erradas, ou seja, precis garantir que a pessoa com qual estará enviando os dados, seja realmente a pessoa correta e não um criminoso. Essa preocupação se intensificou pois recentemente ela tem se deparado com muitos casos de clientes e parceiros que sofreram tentativas de fraude por meio de áudios manipulados a partir de inteligencia artifical. Dessa forma, ela sente a necessidade de ter uma ferramenta confiável que consiga claramente identificar quando for um áudio manipulado na linha. Dessa forma, Fernanda conseguirá, além de proteger seus clientes, gerar provas para sustentar processos como também garantir que a empresa passe em audições de segurança.<br>
+Fernanda tem 35 anos e trabalha no departamento jurídico de uma grande empresa de telecomunicações. Sua função é garantir que todas as operações envolvendo transferência de dados sensíveis estejam alinhadas às normas legais e regulatórias em vigor. Com uma carreira consolidada na área jurídica e experiência em compliance, Fernanda é detalhista, organizada e extremamente cautelosa em suas decisões. Apesar de não ter amplo conhecimento em tecnologia, reconhece a importância crescente da segurança digital e dedica parte de sua rotina a compreender os riscos legais e operacionais que podem impactar a empresa e seus clientes. <br>
+Nos últimos meses, Fernanda se deparou com um aumento de tentativas de fraude baseadas em áudios manipulados por inteligência artificial, o que elevou sua preocupação em relação à autenticidade das comunicações. Suas necessidades estão voltadas a ferramentas que ofereçam clareza, confiabilidade e simplicidade no uso, sem exigir conhecimentos técnicos avançados. Mais do que detectar fraudes, ela busca soluções que garantam segurança jurídica, gerem provas robustas para processos e auxiliem a empresa a manter conformidade em auditorias, protegendo assim clientes, parceiros e a própria reputação da organização.
+
+[Persona criado pelo Bruno]<br>
+
+•Persona Secundária: Ricardo Oliveira, analista de segurança – “prevenir antes que aconteça” <br><br>
+<img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/0eefb65f-d01a-4f17-bbfc-10a05188dd5b" />
+
+Ricardo Silva, 28 anos, é especialista em segurança da informação em uma instituição financeira de grande porte em São Paulo. Desde cedo demonstrou forte interesse por tecnologia, iniciando sua trajetória desmontando computadores e explorando sistemas de forma autodidata. Esse perfil investigativo evoluiu para uma carreira sólida, marcada pela busca contínua por atualização e pela prática de testar novas ferramentas em ambientes controlados. Fora do trabalho, mantém um estilo de vida equilibrado, dividindo seu tempo entre atividades de lazer digitais, como jogos online, e uma rotina disciplinada de exercícios físicos.<br>
+No âmbito profissional, Ricardo lida com o desafio constante de antecipar e mitigar ameaças digitais cada vez mais sofisticadas. Reconhece o crescimento do phishing por voz e do uso de deepfakes como novas formas de fraude e entende que a acessibilidade da inteligência artificial amplia esses riscos. Suas necessidades giram em torno de soluções tecnológicas que combinem precisão na detecção, facilidade de integração aos fluxos de trabalho e usabilidade para colaboradores de diferentes perfis. Para ele, ferramentas eficazes são fundamentais não apenas para proteger clientes e funcionários, mas também para reforçar a credibilidade e a reputação da instituição financeira no mercado. <br>
  
 **2\) Mapa de Empatia \[1 por equipe\]**<br>
 
