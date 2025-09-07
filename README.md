@@ -261,6 +261,9 @@ Sua rotina é marcada pela pressão de prazos processuais e pela responsabilidad
 
 O evento que dispara a perícia é o recebimento de um áudio contestado em tribunal [12]. Ricardo enfrenta a falta de explicações interpretáveis [04][05] e a necessidade de exportar relatórios formais em PDF ou XML [02][07]. Apesar de aplicar processos padrões e que seguem as boas práticas no quesito de análise de áudio, não consegue ter certeza se realmente é ou não um áudio manipulado [13].
 
+### **Cenário de Análise/Problema 2 criado pelo Bruno]**
+Carolina trabalha como Analista de Segurança da Informação de uma empresa financeira e recebe relatórios de clientes que sofreram tentativas de fraude por telefone. O time precisa priorizar incidentes, mas muitas ligações suspeitas são encaminhadas em massa para análise humana. É comum perder tempo com falsos positivos (áudios legítimos sinalizados) e falsos negativos (golpes avançam sem detecção). A equipe não tem uma forma rápida e confiável de distinguir entre manipulação sintética da voz e técnicas tradicionais de engenharia social, então investem tempo e recursos errados, expondo clientes a perdas financeiras.
+
 ### **Questões de Refinamento Análise/Problema 2 criado pelo Bruno**
 
 | Tipo de Questão  | Questão                                                                 |
