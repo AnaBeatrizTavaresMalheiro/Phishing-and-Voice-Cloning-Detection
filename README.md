@@ -149,39 +149,40 @@ No âmbito profissional, Ricardo lida com o desafio constante de antecipar e mit
  
 **2\) Mapa de Empatia \[1 por equipe\]**<br>
 
-Nome: Fernanda Costa | Idade: 35 anos <br> <br>
+Nome: Fernanda Costa | Idade: 35 anos <br>
 
-O que vê:
-• Aumento de fraudes com clonagem de voz e síntese de fala (TTS).
-• Mercado carente de soluções confiáveis, simples e maduras.
-• Pressão de clientes, gestores e reguladores por mais segurança.
+O que vê:<br>
+• Aumento de fraudes com clonagem de voz e síntese de fala (TTS).<br>
+• Mercado carente de soluções confiáveis, simples e maduras.<br>
+• Pressão de clientes, gestores e reguladores por mais segurança.<br>
 
-O que ouve:
-• Diretoria exigindo relatórios auditáveis e redução de riscos.
-• Reguladores reforçando a responsabilidade legal em fraudes.
-• Reclamações de clientes inseguros ou já lesados.
+O que ouve:<br>
+• Diretoria exigindo relatórios auditáveis e redução de riscos.<br>
+• Reguladores reforçando a responsabilidade legal em fraudes.<br>
+• Reclamações de clientes inseguros ou já lesados.<br>
 
-O que pensa e sente:
-• Preocupação constante com a reputação da empresa.
-• Medo de falhas que gerem prejuízos jurídicos ou de imagem.
-• Alívio quando conta com ferramentas rastreáveis e confiáveis.
+O que pensa e sente:<br>
+• Preocupação constante com a reputação da empresa.<br>
+• Medo de falhas que gerem prejuízos jurídicos ou de imagem.<br>
+• Medo de não possuir provas e relatórios caso fraudes ocorram<br>
 
-O que fala e faz:
-• Solicita relatórios claros, objetivos e aceitos em auditorias.
-• Reforça à diretoria e ao time técnico que conformidade depende de soluções eficazes.
+O que fala e faz:<br>
+• Solicita relatórios claros, objetivos e auditáveis.<br>
+• Cobra evidências sólidas para decisões jurídicas.<br>
+• Exige que tenha sistemas que aprimorem a segurança dos clientes. <br>
 
-Dores (frustrações e obstáculos):
-• Falta de soluções acessíveis e realmente confiáveis.
-• Risco de responsabilização legal sem provas robustas.
-• Pressão para decisões rápidas sem comprometer a precisão.
+Dores (frustrações e obstáculos):<br>
+• Falta de soluções acessíveis e realmente confiáveis.<br>
+• Risco de responsabilização legal sem provas robustas.<br>
+• Pressão para decisões rápidas sem comprometer a precisão.<br>
 
 Necessidades:
-• Reduzir fraudes antes que causem danos reais.
-• Evidências sólidas para processos jurídicos e auditorias.
-• Relatórios técnicos e jurídicos confiáveis.
-• Interface simples e prática, com alertas em tempo real.
-• Integração transparente com sistemas existentes.
-• Reforço da imagem da empresa como segura e inovadora.
+• Reduzir fraudes antes que causem danos reais.<br>
+• Evidências sólidas para processos jurídicos e auditorias.<br>
+• Relatórios técnicos e jurídicos confiáveis.<br>
+• Interface simples e prática, com alertas em tempo real.<br>
+• Integração transparente com sistemas existentes.<br>
+• Reforço da imagem da empresa como segura e inovadora.<br>
 
 
 **3\) Contexto de Uso \[1 por equipe\]**
@@ -205,26 +206,24 @@ Necessidades:
   - Profissionais de segurança/jurídico avaliando casos suspeitos.  
   - Usuários finais recebendo alertas ou validando áudios em seus dispositivos.
     
-**4\) Jornada do Usuário \[1 por equipe\]**
+**4\) Jornada do Usuário \[1 por equipe\]**<br>
 
-1. **Início da interação:**
-   - Usuário recebe áudio suspeito ou chamada.  
-   - Abre a ferramenta de detecção de phishing / deepfake.  
+Fernanda (35 anos, departamento jurídico) <br>
 
-2. **Execução da tarefa:**
-   - Faz upload do áudio ou insere informações da chamada.  
-   - Sistema realiza análise multimodal:  
-     - Transcrição e análise textual via BERT.  
-     - Análise de áudio bruto via Wave2Vec.  
-   - Modelo MLP processa resultados e classifica a ocorrência.  
+1) Contexto inicial <br>
+No meio da tarde, Fernanda está finalizando a revisão de um contrato com um parceiro estratégico quando recebe, por aplicativo de mensagens, um áudio solicitando a transferência urgente de documentos sigilosos. A voz parece familiar, semelhante à de um gestor com quem ela trabalha, mas a forma da abordagem soa estranha e pouco formal. Preocupada com a possibilidade de fraude, ela decide verificar a autenticidade do áudio antes de tomar qualquer decisão. <br>
 
-3. **Resultados e feedback:**
-   - Indica se o áudio é suspeito ou legítimo e se há indícios de *deepfake*.  
-   - Gera relatórios para decisão imediata (usuário comum) ou auditoria jurídica (profissionais primários).  
+2) Acesso ao aplicativo <br>
+Fernanda abre o aplicativo de detecção de fraudes de áudio instalado em seu computador corporativo. Pela interface simples, seleciona a opção “Analisar novo áudio” e faz o upload do arquivo recebido.<br>
 
-4. **Conclusão da tarefa:**
-   - Usuário toma decisão: bloqueia/aprova, reporta ou encaminha para investigação.  
-   - Histórico e logs ficam armazenados para futuras consultas ou processos legais.
+3) Processamento dentro do app <br>
+O sistema inicia automaticamente a análise. Ela acompanha na tela um painel com três etapas: transcrição da fala, verificação de padrões de voz e checagem de possíveis manipulações sintéticas. Enquanto o processamento ocorre, um indicador de progresso comunica de forma clara que a análise está em andamento, transmitindo transparência e segurança. <br>
+
+4) Recebimento do resultado<br>
+Em poucos segundos, o aplicativo apresenta um resultado categórico: “Alerta – fortes indícios de manipulação por inteligência artificial (voice cloning)”. Junto com o alerta, o sistema gera um relatório simples com percentual de confiança e recomendações, que podem ser exportadas em formato compatível para auditorias e processos jurídicos.<br>
+
+5) Ações após o resultado<br>
+Com base na informação, Fernanda imediatamente interrompe o envio dos documentos, comunica seu gestor e aciona o time de compliance da empresa. O relatório gerado pelo app é anexado ao processo interno de investigação, servindo tanto como evidência jurídica quanto como registro para auditorias futuras. Ao final, ela sente alívio e confiança por ter evitado um possível vazamento de dados sensíveis.<br>
 
 # **Entrega 4  (data) \[em andamento/concluído\]**
 
