@@ -123,7 +123,7 @@ A tendência e utilizar sistemas de detecção de deepfakes em qualquer forma de
 # Entrega 3 - (Concluído)<br>
 **1\) Personas**  <br>
 
-[Persona criado por Bruno e Ana]
+[Persona criado por Bruno e Ana]<br>
 • Persona primária: João Benedito, aposentado e dono de casa – “qualquer ajuda é bem vinda”<br><br>
 <img width="474" height="355" alt="image" src="https://github.com/user-attachments/assets/7e82af78-0aed-4672-899b-ec622369cf4c" />
 
@@ -151,42 +151,38 @@ No âmbito profissional, Ricardo lida com o desafio constante de antecipar e mit
 
 Nome: Fernanda Costa | Idade: 35 anos <br> <br>
 
-1. O que ve:<br>
-	•	Crescente uso de voice cloning e TTS em fraudes.<br>
-	•	Mercado ainda sem soluções maduras e de fácil adoção.<br>
-	•	Pressão de clientes, órgãos reguladores e gestores por maior segurança.<br>
-⸻<br>
+O que vê:
+• Aumento de fraudes com clonagem de voz e síntese de fala (TTS).
+• Mercado carente de soluções confiáveis, simples e maduras.
+• Pressão de clientes, gestores e reguladores por mais segurança.
 
-2. O que ouve:<br>
-	•	Exigência da diretoria por relatórios auditáveis e redução de riscos.<br>
-	•	Reforço de reguladores sobre responsabilidade legal em fraudes.<br>
-	•	Reclamações de clientes lesados ou inseguros.<br>
-⸻<br>
+O que ouve:
+• Diretoria exigindo relatórios auditáveis e redução de riscos.
+• Reguladores reforçando a responsabilidade legal em fraudes.
+• Reclamações de clientes inseguros ou já lesados.
 
-3. O que pensa e sente:<br>
-	•	Preocupação com reputação da empresa e riscos legais.<br>
-	•	Medo de falhas que possam causar prejuízos financeiros ou de imagem.<br>
-	•	Alívio ao contar com ferramentas que dão rastreabilidade e confiabilidade.<br>
-⸻<br>
+O que pensa e sente:
+• Preocupação constante com a reputação da empresa.
+• Medo de falhas que gerem prejuízos jurídicos ou de imagem.
+• Alívio quando conta com ferramentas rastreáveis e confiáveis.
 
-4. O que fala e faz:<br>
-	•	Requisitam relatórios objetivos, claros e usáveis em auditorias.<br>
-⸻<br>
+O que fala e faz:
+• Solicita relatórios claros, objetivos e aceitos em auditorias.
+• Reforça à diretoria e ao time técnico que conformidade depende de soluções eficazes.
 
-5. Dores (frustrações e obstáculos)<br>
-	•	Falta de soluções confiáveis e fáceis de usar no mercado.<br>
-	•	Possibilidade de responsabilização legal sem provas sólidas.<br>
-	•	Tomar decisões precisas e rápidas,mas sem perder precisão.<br>
+Dores (frustrações e obstáculos):
+• Falta de soluções acessíveis e realmente confiáveis.
+• Risco de responsabilização legal sem provas robustas.
+• Pressão para decisões rápidas sem comprometer a precisão.
 
-⸻<br>
+Necessidades:
+• Reduzir fraudes antes que causem danos reais.
+• Evidências sólidas para processos jurídicos e auditorias.
+• Relatórios técnicos e jurídicos confiáveis.
+• Interface simples e prática, com alertas em tempo real.
+• Integração transparente com sistemas existentes.
+• Reforço da imagem da empresa como segura e inovadora.
 
-6. Necessidades:<br>
-	•	Redução de fraudes antes que causem prejuízos.<br>
-	•	Evidências rastreáveis e válidas para auditorias e disputas legais.<br>
-	•	Relatórios técnicos e jurídicos confiáveis.<br>
-	•	Interface simples para operadores, com alertas em tempo real.<br>
-	•	Integração fluida com sistemas já existentes.<br>
-	•	Reforço da reputação da empresa como segura e inovadora.<br>
 
 **3\) Contexto de Uso \[1 por equipe\]**
 - **Ambiente:**
