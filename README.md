@@ -312,6 +312,65 @@ Carolina precisa ser assertiva porque um erro pode expor clientes e comprometer 
 
 **2\) GOMS**
 
+# GOMS – Analisar Áudio
+
+## GOAL 0: Analisar Áudio
+
+### METHOD 0.A: iniciar análise
+(SEL. RULE: usuário deseja analisar áudio)
+- OP. 0.A.1: acessar a ferramenta de análise
+- OP. 0.A.2: verificar interface inicial
+- OP. 0.A.3: decidir inserir áudio
+
+---
+
+## GOAL 1: Inserir Áudio
+
+### METHOD 1.A: selecionar arquivo via upload
+(SEL. RULE: arquivo disponível no dispositivo)
+- OP. 1.A.1: clicar no botão de upload
+- OP. 1.A.2: escolher arquivo no sistema de arquivos
+- OP. 1.A.3: confirmar envio
+- OP. 1.A.4: verificar validação do arquivo
+
+### METHOD 1.B: arrastar e soltar arquivo
+(SEL. RULE: usuário prefere drag and drop)
+- OP. 1.B.1: posicionar arquivo sobre área de upload
+- OP. 1.B.2: soltar arquivo
+- OP. 1.B.3: verificar validação do arquivo
+
+---
+
+## GOAL 1.1: Informar tipo de análise
+
+### METHOD 1.1.A: selecionar análise padrão
+(SEL. RULE: usuário deseja detecção automática de deepfake e phishing)
+- OP. 1.1.A.1: clicar na opção “Análise Padrão”
+- OP. 1.1.A.2: confirmar execução
+- OP. 1.1.A.3: verificar início da análise
+
+### METHOD 1.1.B: selecionar análise personalizada
+(SEL. RULE: usuário deseja escolher deepfake **ou** phishing)
+- OP. 1.1.B.1: clicar na opção “Análise Personalizada”
+- OP. 1.1.B.2: escolher tipo de análise (deepfake ou phishing)
+- OP. 1.1.B.3: ajustar parâmetros específicos
+- OP. 1.1.B.4: confirmar execução
+- OP. 1.1.B.5: verificar início da análise
+
+---
+
+## GOAL 2: Exibir barra de carregamento
+- OP. 2.1: acompanhar percentual concluído
+- OP. 2.2: acompanhar tempo estimado
+- OP. 2.3: (opcional) cancelar análise se necessário
+
+---
+
+## GOAL 3: Apresentar resultado da análise
+- OP. 3.1: visualizar gráficos e métricas
+- OP. 3.2: revisar resultados de deepfake/phishing
+- OP. 3.3: exportar relatório se necessário (PDF, CSV, imagem)
+
 **3\) CTT**
 
 # 
