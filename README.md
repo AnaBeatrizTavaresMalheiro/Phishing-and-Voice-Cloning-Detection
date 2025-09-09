@@ -274,22 +274,17 @@ Carolina trabalha como Analista de Segurança da Informação de uma empresa fin
 | **04 - Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
 | **05 - Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
 | **06 - Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
-| **07 - Exploratória** | Por que o setor recebe tantos áudios suspeitos em curto espaço de tempo? |
-| **08 - Exploratória** | Por que falsos positivos e negativos atrapalham tanto a priorização de incidentes? |
-| **09 - Exploratória** | Como os áudios são armazenados, processados e separados hoje?|
-| **10 - Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
-| **11 - Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
-| **12 - Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
+| **07 - objetivo** | Por que ela precisa analisar de forma acertiva esses audios? |
+| **08 - objetivo** | Quais são as pre condições para ela poder analisar o áudio? |
+| **09 - ambiente** | Há uma pressão para a realização correta desses audios?|
+| **10 - ator** | Quais caracteristicas dela que auxilia ou atrapalha a execução? |               |
+| **11 - ação**  |  Quais são os passos atuais para a realização da naálise?  |
+| **12 - Avaliação**  | Como é possível saber se o áudio foi analisado corretamente?   |
 
 ### **Refinamento do Cenário Análise/Problema 2 criado pelo Bruno**
-Carolina, analista de segurança em uma instituição financeira, **recebe diariamente um grande volume de áudios suspeitos vindos do atendimento ao cliente[01]**. Esses áudios podem ser **deepfakes de voz ou golpes de engenharia social**, mas a equipe não possui hoje uma forma automática de diferenciá-los.  
+Carolina, analista de segurança em uma instituição financeira, recebe diariamente um grande volume de áudios suspeitos [01], pois campanhas de phishing em massa atingem vários clientes ao mesmo tempo. Esses áudios podem ser deepfakes ou golpes de engenharia social [06], mas o time não tem uma forma automática de diferenciá-los. Os falsos positivos e negativos [02] dificultam a priorização, já que áudios legítimos consomem tempo enquanto fraudes avançam. Hoje, eles são armazenados em servidores internos e separados manualmente [03], sendo tratados como prioridade os casos de risco financeiro imediato ou clientes estratégicos [04].<br>
 
-Na prática, o time perde tempo com falsos positivos, quando gravações legítimas são marcadas como fraude, e também com falsos negativos, **quando golpes não são detectados e chegam ao cliente**. Como atua em **ambiente de pressão por mais segurança**, a análise manual acaba atrasando a resposta e aumenta o risco de perdas financeiras.  
-
-Outro desafio é a necessidade de integração com sistemas já usados pelo setor para respostas dos incidentes. Além disso, os analistas precisam que a solução apresente resultados explicáveis, permitindo entender por que determinado áudio foi sinalizado.  
-
-Para ser útil no dia a dia, a triagem não pode ser apenas binária, **sendo necessário apresentar um score probabilístico**, ou seja, um score de confiança que ajude a priorizar os casos mais críticos e reduzir o tempo gasto com investigações manuais.
-
+Carolina precisa ser assertiva porque um erro pode expor clientes e comprometer a reputação da empresa [07]. Para isso, o áudio deve chegar com qualidade mínima e metadados básicos [08], mas ela trabalha sob forte pressão por respostas rápidas [09]. Sua atenção e experiência ajudam na triagem, embora o excesso de volume seja um obstáculo [10]. Atualmente, os passos [11] envolvem ouvir o áudio, transcrever e checar padrões suspeitos. Uma triagem probabilística com score de risco [05] tornaria esse processo mais eficiente. Por mais experiência que a Carolina tenha desenvolvido ao longo dos anos, ainda nõ é possível dizer com firmeza que o audio foi analisado corretamente ou não [12].<br>
 # **Entrega 5  (data) \[em andamento/concluído\]**
 
 **\[1 solução por pessoa\]**
