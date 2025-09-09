@@ -294,6 +294,21 @@ Carolina precisa ser assertiva porque um erro pode expor clientes e comprometer 
 **Análise de Tarefas**
 
 **1\) HTA**
+## HTA – Analisar Áudio
+
+<img width="328" height="223" alt="image" src="https://github.com/user-attachments/assets/80c3db4c-abd3-45f4-8bd9-a048be928001" />
+
+
+| Objetivos/Operações | Input | Feedback | Plano | Recomendação |
+|--------------------|-------|----------|-------|--------------|
+| **0. Analisar Áudio** | Usuário acessa a ferramenta de análise. | Sistema apresenta interface inicial com opções de inserção de áudio. | Inserir áudio, exibir barra de carregamento e apresentar resultado da análise. | Disponibilizar tutorial rápido ou instruções iniciais sobre como usar a ferramenta. |
+| **1. Inserir Áudio** | Upload de arquivo de áudio (formatos aceitos: .wav, .mp3, etc.). | Sistema confirma que o arquivo foi carregado com sucesso ou mostra mensagem de erro em caso de formato inválido. | Selecionar o arquivo no dispositivo e enviar para o sistema. | Implementar função *arrastar e soltar* (drag and drop) para facilitar o upload. |
+| **1.1 Informar qual o tipo de análise (1/2)** |  |  |  |  |
+| **1.1.1 Análise Padrão** | Seleção de análise automática com parâmetros pré-definidos (detecção de deepfake e phishing). | Sistema confirma a escolha, inicia configuração e executa ambas as verificações em sequência ou paralelo. | Prosseguir com a análise completa e confirmar execução. | Documentar os critérios e parâmetros usados em cada tipo de detecção para garantir transparência. |
+| **1.1.2 Análise Personalizada** | Usuário define qual tipo de análise deseja realizar (apenas deepfake ou apenas phishing), ajustando parâmetros específicos se necessário. | Sistema apresenta resumo das escolhas feitas (ex.: “Análise: somente deepfake”). | Selecionar o escopo desejado e confirmar execução. | Permitir salvar combinações personalizadas como *modelo*, facilitando reuso em futuras análises. |
+| **2. Exibir barra de carregamento** | Arquivo enviado e análise iniciada. | Barra de progresso exibe percentual concluído e tempo estimado. | Usuário aguarda até a conclusão do processamento. | Adicionar opção de cancelar ou pausar a análise em andamento. |
+| **3. Apresentar resultado da análise** | Processamento concluído. | Sistema exibe resultados (ex.: gráficos, métricas de deepfake e phishing, relatórios). | Interpretar resultados e, se necessário, exportar relatório. | Oferecer opções de exportação em diferentes formatos (PDF, CSV, imagens). |
+
 
 **2\) GOMS**
 
