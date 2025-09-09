@@ -296,7 +296,7 @@ Carolina precisa ser assertiva porque um erro pode expor clientes e comprometer 
 **1\) HTA**
 ## HTA – Analisar Áudio
 
-<img width="328" height="223" alt="image" src="https://github.com/user-attachments/assets/80c3db4c-abd3-45f4-8bd9-a048be928001" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/80c3db4c-abd3-45f4-8bd9-a048be928001" />
 
 
 | Objetivos/Operações | Input | Feedback | Plano | Recomendação |
