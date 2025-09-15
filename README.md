@@ -372,7 +372,7 @@ Carolina precisa ser assertiva porque um erro pode expor clientes e comprometer 
 - OP. 3.3: exportar relatório se necessário (PDF, CSV, imagem)
 
 **3\) CTT**
-<img width="2578" height="1433" alt="Diagrama em branco (1)" src="https://github.com/user-attachments/assets/4f494a84-d01a-47af-bd00-e23859b68d96" />
+<img width="2848" height="1440" alt="Diagrama em branco (2)" src="https://github.com/user-attachments/assets/c3d9a20e-2ae4-490d-aa85-0a9d5780c57b" />
 
 # 
 
