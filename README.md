@@ -296,7 +296,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 **1\) HTA**
 ## HTA – Analisar Áudio
 
-<img width="560" height="173" alt="image" src="https://github.com/user-attachments/assets/36af1a3f-62b4-4db7-b58e-06d4195174b8" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/36af1a3f-62b4-4db7-b58e-06d4195174b8" />
 
 
 
