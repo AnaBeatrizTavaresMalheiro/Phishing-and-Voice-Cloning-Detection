@@ -293,7 +293,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 
 **Análise de Tarefas**
 
-**1\) HTA**
+**1.1\) HTA**
 ## HTA – Analisar Áudio
 
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/36af1a3f-62b4-4db7-b58e-06d4195174b8" />
@@ -313,7 +313,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 | **4. Apresentar resultado da análise** | Processamento concluído. | Sistema exibe resultados (ex.: gráficos, métricas de deepfake e phishing, relatórios). | | Oferecer opções de exportação em diferentes formatos (PDF, CSV, imagens). |
 
 
-**2\) GOMS**
+**1.2\) GOMS**
 
 # GOMS – Analisar Áudio
 
@@ -374,9 +374,78 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 - OP. 3.2: revisar resultados de deepfake/phishing
 - OP. 3.3: exportar relatório se necessário (PDF, CSV, imagem)
 
-**3\) CTT**
+**1.3\) CTT**
 <img width="2848" height="1440" alt="Diagrama em branco (2)" src="https://github.com/user-attachments/assets/c3d9a20e-2ae4-490d-aa85-0a9d5780c57b" />
 
+**2.1\) HTA**
+## HTA – Extrair relatório
+
+<img width="1706" height="810" alt="image" src="https://github.com/user-attachments/assets/df46a10d-59bd-4d8a-8c11-cc183bf6650a" />
+
+
+**2.2\) GOMS**
+
+# GOMS – Extrair relatório
+
+## GOAL 0: Extrair relatório
+
+### METHOD 0.A: iniciar análise
+(SEL. RULE: usuário deseja analisar áudio)
+- OP. 0.A.1: acessar a ferramenta de análise
+- OP. 0.A.2: verificar interface inicial
+- OP. 0.A.3: decidir inserir áudio
+
+---
+
+## GOAL 1: Inserir Áudio
+
+### METHOD 1.A: selecionar arquivo via upload
+(SEL. RULE: arquivo disponível no dispositivo)
+- OP. 1.A.1: clicar no botão de upload
+- OP. 1.A.2: escolher arquivo no sistema de arquivos
+- OP. 1.A.3: confirmar envio
+- OP. 1.A.4: verificar validação do arquivo
+
+### METHOD 1.B: arrastar e soltar arquivo
+(SEL. RULE: usuário prefere drag and drop)
+- OP. 1.B.1: posicionar arquivo sobre área de upload
+- OP. 1.B.2: soltar arquivo
+- OP. 1.B.3: verificar validação do arquivo
+
+---
+
+## GOAL 1.1: Informar tipo de análise
+
+### METHOD 1.1.A: selecionar análise padrão
+(SEL. RULE: usuário deseja detecção automática de deepfake e phishing)
+- OP. 1.1.A.1: clicar na opção “Análise Padrão”
+- OP. 1.1.A.2: confirmar execução
+- OP. 1.1.A.3: verificar início da análise
+
+### METHOD 1.1.B: selecionar análise personalizada
+(SEL. RULE: usuário deseja escolher deepfake **ou** phishing)
+- OP. 1.1.B.1: clicar na opção “Análise Personalizada”
+- OP. 1.1.B.2: escolher tipo de análise (deepfake ou phishing)
+- OP. 1.1.B.3: ajustar parâmetros específicos
+- OP. 1.1.B.4: confirmar execução
+- OP. 1.1.B.5: verificar início da análise
+
+---
+
+## GOAL 2: Exibir barra de carregamento
+- OP. 2.1: acompanhar percentual concluído
+- OP. 2.2: acompanhar tempo estimado
+- OP. 2.3: (opcional) cancelar análise se necessário
+
+---
+
+## GOAL 3: Apresentar resultado da análise
+- OP. 3.1: visualizar gráficos e métricas
+- OP. 3.2: revisar resultados de deepfake/phishing
+- OP. 3.3: exportar relatório se necessário (PDF, CSV, imagem)
+
+**2.3\) CTT**
+<img width="2848" height="1440" alt="Diagrama em branco (2)" src="https://github.com/user-attachments/assets/c3d9a20e-2ae4-490d-aa85-0a9d5780c57b" />
 # 
 
 # **Entrega 6  (data) \[em andamento/concluído\]**
