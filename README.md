@@ -382,6 +382,16 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 
 <img width="1706" height="810" alt="image" src="https://github.com/user-attachments/assets/df46a10d-59bd-4d8a-8c11-cc183bf6650a" />
 
+| Objetivos/Operações | Input | Feedback | Plano | Recomendação |
+|---------------------|-------|----------|-------|--------------|
+| **0. Extrair Relatórios** | Usuario solicita acesso a relatório de um áudio já analisado. | Sistema inicia fluxo de extração. | Seguir sequência 1 → 4 até conclusão. | Automatizar a sequência para reduzir tempo e erros. |
+| **1. Acessar histórico de análises** | Clica na opção "histórico" no menu principal para abrir histórico. | Sistema exibe lista de análises já feitas. | Dar acesso ao usuário ao repositório de análises. | Ordenar lista por data e oferecer busca eficiente. |
+| **2. Encontrar análise desejada (1/2)** | Usuário fornece critério de busca. | Sistema apresenta resultados filtrados ou destacados. | Dividir em busca manual (2.1) ou por data (2.2). | Implementar busca rápida com autocomplete e filtros. |
+| **2.1. Buscar manualmente** | Rolagem da tela buscando pela análise desejada. | Sistema mostra áudios ordenados pela data confome o usuário rola a tela. | Localizar análise sem critérios avançados. | Usar paginação e barra de pesquisa para agilizar. |
+| **2.2. Filtrar pela data da análise** | Usuário seleciona período ou data específica. | Lista de análises filtrada por data. | Acesso rápido a análises por período. | Incluir calendário interativo. |
+| **3. Selecionar análise desejada** | Clique na análise correta. | Confirmação visual da seleção. | Destacar análise para próxima ação (download). | Exibir resumo rápido da análise antes do download. |
+| **4. Baixar relatório da análise desejada** | Clicar no botão "Extrair Relatório". | Arquivo gerado e salvo no dispositivo. | Finalizar processo de extração. | Oferecer múltiplos formatos (PDF, CSV) e notificação de conclusão. |
+
 
 **2.2\) GOMS**
 
