@@ -396,66 +396,36 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 **2.2\) GOMS**
 
 # GOMS – Extrair relatório
-
 ## GOAL 0: Extrair relatório
+### Goal 1: Encontrar histórico de análise do áudio desejado
+#### METHOD 1.A: Encontrar manualmente a análise do áudio rolando a tela de histórico
+(SEL. RULE: usuário deseja encontrar áudio manualmente sem filtro)<br>
+- OP. 1.A.1: Clica na opção "histórico" no menu principal para abrir histórico.<br>
+- OP. 1.A.2: Esperar página de histórico ser realizada<br>
+- OP. 1.A.3: Rolar tela de histórico até encontrar a análise do áudio desejado<br>
+- OP. 1.A.4: Selecionar a análise do áudio desejado<br>
+- OP. 1.A.5: Espera o relatório ser mostrado na tela<br>
 
-### METHOD 0.A: iniciar análise
-(SEL. RULE: usuário deseja analisar áudio)
-- OP. 0.A.1: acessar a ferramenta de análise
-- OP. 0.A.2: verificar interface inicial
-- OP. 0.A.3: decidir inserir áudio
-
----
-
-## GOAL 1: Inserir Áudio
-
-### METHOD 1.A: selecionar arquivo via upload
-(SEL. RULE: arquivo disponível no dispositivo)
-- OP. 1.A.1: clicar no botão de upload
-- OP. 1.A.2: escolher arquivo no sistema de arquivos
-- OP. 1.A.3: confirmar envio
-- OP. 1.A.4: verificar validação do arquivo
-
-### METHOD 1.B: arrastar e soltar arquivo
-(SEL. RULE: usuário prefere drag and drop)
-- OP. 1.B.1: posicionar arquivo sobre área de upload
-- OP. 1.B.2: soltar arquivo
-- OP. 1.B.3: verificar validação do arquivo
-
----
-
-## GOAL 1.1: Informar tipo de análise
-
-### METHOD 1.1.A: selecionar análise padrão
-(SEL. RULE: usuário deseja detecção automática de deepfake e phishing)
-- OP. 1.1.A.1: clicar na opção “Análise Padrão”
-- OP. 1.1.A.2: confirmar execução
-- OP. 1.1.A.3: verificar início da análise
-
-### METHOD 1.1.B: selecionar análise personalizada
-(SEL. RULE: usuário deseja escolher deepfake **ou** phishing)
-- OP. 1.1.B.1: clicar na opção “Análise Personalizada”
-- OP. 1.1.B.2: escolher tipo de análise (deepfake ou phishing)
-- OP. 1.1.B.3: ajustar parâmetros específicos
-- OP. 1.1.B.4: confirmar execução
-- OP. 1.1.B.5: verificar início da análise
-
----
-
-## GOAL 2: Exibir barra de carregamento
-- OP. 2.1: acompanhar percentual concluído
-- OP. 2.2: acompanhar tempo estimado
-- OP. 2.3: (opcional) cancelar análise se necessário
-
----
-
-## GOAL 3: Apresentar resultado da análise
-- OP. 3.1: visualizar gráficos e métricas
-- OP. 3.2: revisar resultados de deepfake/phishing
-- OP. 3.3: exportar relatório se necessário (PDF, CSV, imagem)
-
+### METHOD 2.A: Encontrar a partir de filtros a análise do áudio 
+(SEL. RULE: usuário deseja encontrar áudio a partir de filtros)<br>
+- OP. 1.A.1: Clica na opção "histórico" no menu principal para abrir histórico.<br>
+- OP. 1.A.2: Esperar página de histórico ser realizada<br>
+- OP. 1.A.3: Clicar no botão de "adicionar filtro"<br>
+- OP. 1.A.4: Escolher a data/período em que o áudio desejado foi analisado<br>
+- OP. 1.A.5: Esperar página de histórico mostrar os áudios do período desejado<br>
+- OP. 1.A.6: Selecionar a análise do áudio desejado<br>
+- OP. 1.A.7: Espera o relatório ser mostrado na tela<br>
+  		
+ 		
+## Goal 2: Extrair relatório do áudio desejado
+### METHOD 2.A: Baixar relatório da análise do áudio clicando no botão de "download"<br>
+(SEL. RULE: usuário deseja baixar o relatório da análise do áudio no seu dispositivo)<br>
+- OP. 2.A.1: Clica na opção "download" presente no relatório mostrado na tela<br>
+- OP. 2.A.2: Esperar sistema mostrar mensagem que o download finalizou<br>
+  
 **2.3\) CTT**
-<img width="2848" height="1440" alt="Diagrama em branco (2)" src="https://github.com/user-attachments/assets/c3d9a20e-2ae4-490d-aa85-0a9d5780c57b" />
+<img width="2318" height="984" alt="image" src="https://github.com/user-attachments/assets/bf985ee8-eaa8-4169-be62-c39e84503f3c" />
+
 # 
 
 # **Entrega 6  (data) \[em andamento/concluído\]**
