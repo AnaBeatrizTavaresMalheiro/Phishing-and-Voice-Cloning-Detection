@@ -431,8 +431,8 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 # **Entrega 6  (data) \[em andamento/concluído\]**
 
 **\[PARTE A \- 1 solução por equipe\]**
+![WhatsApp Image 2025-09-23 at 17 05 17](https://github.com/user-attachments/assets/354f5fae-7dcf-4638-a6d1-f55b8b81b129)
 
-**DICA: protótipo em papel**
 
 # **Entrega 7  (data) \[em andamento/concluído\]**
 
