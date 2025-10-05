@@ -440,14 +440,47 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 **1\)	Identificação de Necessidades dos Usuários e Requisitos de IHC: exercício de perguntas**
 
 * **Que dados coletar?**
+- Sobre o usuário: <br>
+	- Idade <br>
+  	- Grau de Instrução <br>
+  	- Formação acadêmica <br>
+  	- Prefere aprender com outras pessoas? <br>
+	- Prefere aprender sozinho? <br>
+- Sobre relação com tecnologia:<br>
+	- Alfabetismo computacional <br>
+	- Anos de experiência com tecnologia <br>
+	- Que sistemas computacionais o usuário conhece? <br>
+	- Quais equipamentos costuma utilizar no dia a dia? <br>
+	- Descontentamentos com os dispositivos que usa <br>
+- Sobre conhecimento do domínio do produto:<br>
+  	- O quanto conhece da área de domínio do projeto <br>
+	- Tem interesse em entender mais sobre o assunto? <br>
+- Sobre conhecimento das tarefas que deverá realizar: <br>
+	- Quais são os principais objetivos dos usuário? <br>
+	- Como os objetivos são alcançados hoje em dia? <br>
+- Sobre motivações e valores: <br>
+	- Prefere um estilo de aprendizado visual, auditivo ou outro? <br>
+   	- O usuário costuma assumir riscos e explorar novas formas de fazer o mesmo trabalho? <br>
+   	- Pode investir tempo aprendendo a utilizar o produto em questão? <br>
 
 * **De quem coletar?**
 
-	
+- Quem utilizará o sistema? <br>
+	- Pessoas idosas e aposentados (Persona primária) <br>
+	- Pessoas da área jurídica (Persona primária) <br> 
+- Quem será afetado por ele?
+  	- Pessoas do setor de TI das empresas (Persona secundária) <br> 
+  	- Familiares de idosos e aposentados <br>
+- Quem é responsável por decidir quais objetivos o sistema deve apoiar e quais funcionalidades ele deve ter? <br>
+	- Project Owner <br>
+- Quem definiu os processos a serem apoiados pelo sistema? <br>
+	- Desenvolvedores do projetos <br>
 
 **2\)	Aspectos Éticos**
 
 * **Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.**
+  Sim, o projeto deverá considerar aspectos éticos, especialmente durante a fase de testes e validação do sistema. Como a proposta envolve a detecção de golpes e deepfakes em chamadas telefônicas, existe a possibilidade de lidar com áudios e transcrições que contenham vozes reais de pessoas. Por isso, será essencial garantir que nenhum dado pessoal ou sensível seja utilizado sem permissão, respeitando o direito à privacidade e à confidencialidade das informações. Além disso, ao realizar testes com voluntários ou avaliadores humanos, será necessário assegurar que as atividades não causem qualquer tipo de desconforto físico, mental ou emocional — por exemplo, evitando expor os participantes a conteúdos enganosos, simulações de golpes reais ou falas que possam gerar ansiedade ou constrangimento. <br>
+Essas precauções colocam o projeto em conformidade com o princípio da não maleficência, que visa evitar danos previsíveis, e com o princípio da justiça e equidade, que busca distribuir os benefícios da pesquisa sem prejudicar indivíduos ou grupos vulneráveis. Na prática, isso significa realizar os testes apenas em ambientes controlados, com dados públicos ou sintéticos, obtendo consentimento informado caso haja participação humana, e garantindo que todas as informações analisadas sejam anonimizadas.
 
 	
 
