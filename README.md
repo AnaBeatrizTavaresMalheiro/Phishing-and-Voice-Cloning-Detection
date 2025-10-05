@@ -60,7 +60,7 @@ A ferramenta visa fortalecer a cibersegurança, oferecendo suporte na identifica
 1.11) Qual é o contexto de uso dessa aplicação? (esse já é um conceito de IHC que professor explicou na sala)<br>
 A aplicação se insere no contexto de cibersegurança, com foco na identificação de fraudes e manipulações de voz em ambientes digitais. Pode ser usada como ferramenta auxiliar por profissionais de segurança da informação, órgãos judiciais ou empresas que lidam com verificação de identidade via áudio.<br>
 ***
-# Entrega 2 - (Concluído)
+# Entrega 2 - (Concluído)<br>
 
 **\[1 solução completa por pessoa da equipe\]**
 
@@ -225,7 +225,7 @@ Em poucos segundos, o aplicativo apresenta um resultado categórico: “Alerta �
 5) Ações após o resultado<br>
 Com base na informação, Fernanda imediatamente interrompe o envio dos documentos, comunica seu gestor e aciona o time de compliance da empresa. O relatório gerado pelo app é anexado ao processo interno de investigação, servindo tanto como evidência jurídica quanto como registro para auditorias futuras. Ao final, ela sente alívio e confiança por ter evitado um possível vazamento de dados sensíveis.<br>
 
-# **Entrega 4  (data) \[em andamento/concluído\]**
+# **Entrega 4  (Concluído)<br>
 
 **\[1 solução completa por pessoa da equipe\]**
 
@@ -285,7 +285,7 @@ Ricardo trabalha como Analista de Segurança da Informação de uma empresa fina
 Ricardo, analista de segurança em uma instituição financeira, recebe diariamente um grande volume de áudios suspeitos [01], pois campanhas de phishing em massa atingem vários clientes ao mesmo tempo. Esses áudios podem ser deepfakes ou golpes de engenharia social [06], mas o time não tem uma forma automática de diferenciá-los. Os falsos positivos e negativos [02] dificultam a priorização, já que áudios legítimos consomem tempo enquanto fraudes avançam. Hoje, eles são armazenados em servidores internos e separados manualmente [03], sendo tratados como prioridade os casos de risco financeiro imediato ou clientes estratégicos [04].<br>
 
 Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a reputação da empresa [07]. Para isso, o áudio deve chegar com qualidade mínima e metadados básicos [08], mas ela trabalha sob forte pressão por respostas rápidas [09]. Sua atenção e experiência ajudam na triagem, embora o excesso de volume seja um obstáculo [10]. Atualmente, os passos [11] envolvem ouvir o áudio, transcrever e checar padrões suspeitos. Uma triagem probabilística com score de risco [05] tornaria esse processo mais eficiente. Por mais experiência que a Carolina tenha desenvolvido ao longo dos anos, ainda nõ é possível dizer com firmeza que o audio foi analisado corretamente ou não [12].<br>
-# **Entrega 5  (data) \[em andamento/concluído\]**
+# **Entrega 5  (Concluído)<br>
 
 **\[1 solução por pessoa\]**
 
@@ -428,7 +428,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 
 # 
 
-# **Entrega 6  (data) \[em andamento/concluído\]**
+# **Entrega 6  (Concluído)<br>
 
 **\[PARTE A \- 1 solução por equipe\]**
 ![WhatsApp Image 2025-09-26 at 12 21 46](https://github.com/user-attachments/assets/9f50c241-814f-409c-9f84-4301ee814fbb)
