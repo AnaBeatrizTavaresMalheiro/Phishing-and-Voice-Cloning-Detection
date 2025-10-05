@@ -433,7 +433,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 **\[PARTE A \- 1 solução por equipe\]**
 ![WhatsApp Image 2025-09-26 at 12 21 46](https://github.com/user-attachments/assets/9f50c241-814f-409c-9f84-4301ee814fbb)
 
-# **Entrega 7  (data) \[em andamento/concluído\]**
+# **Entrega 7  (Concluído)<br>
 
 **\[PARTE A: 1 solução completa por pessoa da equipe\]**
 
@@ -478,9 +478,10 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 
 **2\)	Aspectos Éticos**
 
-* **Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.**
-  Sim, o projeto deverá considerar aspectos éticos, especialmente durante a fase de testes e validação do sistema. Como a proposta envolve a detecção de golpes e deepfakes em chamadas telefônicas, existe a possibilidade de lidar com áudios e transcrições que contenham vozes reais de pessoas. Por isso, será essencial garantir que nenhum dado pessoal ou sensível seja utilizado sem permissão, respeitando o direito à privacidade e à confidencialidade das informações. Além disso, ao realizar testes com voluntários ou avaliadores humanos, será necessário assegurar que as atividades não causem qualquer tipo de desconforto físico, mental ou emocional — por exemplo, evitando expor os participantes a conteúdos enganosos, simulações de golpes reais ou falas que possam gerar ansiedade ou constrangimento. <br>
-Essas precauções colocam o projeto em conformidade com o princípio da não maleficência, que visa evitar danos previsíveis, e com o princípio da justiça e equidade, que busca distribuir os benefícios da pesquisa sem prejudicar indivíduos ou grupos vulneráveis. Na prática, isso significa realizar os testes apenas em ambientes controlados, com dados públicos ou sintéticos, obtendo consentimento informado caso haja participação humana, e garantindo que todas as informações analisadas sejam anonimizadas.
+* **Seu projeto deverá considerar aspectos éticos? Justifique usando os conceitos da aula.** <br>
+
+  	Sim, o projeto deverá considerar aspectos éticos, especialmente durante a fase de testes e validação do sistema. Como a proposta envolve a detecção de golpes e deepfakes em chamadas telefônicas, existe a possibilidade de lidar com áudios e transcrições que contenham vozes reais de pessoas. Por isso, será essencial garantir que nenhum dado pessoal ou sensível seja utilizado sem permissão, respeitando o direito à privacidade e à confidencialidade das informações. Além disso, ao realizar testes com voluntários ou avaliadores humanos, será necessário assegurar que as atividades não causem qualquer tipo de desconforto físico, mental ou emocional — por exemplo, evitando expor os participantes a conteúdos enganosos, simulações de golpes reais ou falas que possam gerar ansiedade ou constrangimento. <br><br>
+	Essas precauções colocam o projeto em conformidade com o princípio da não maleficência, que visa evitar danos previsíveis, e com o princípio da justiça e equidade, que busca distribuir os benefícios da pesquisa sem prejudicar indivíduos ou grupos vulneráveis. Na prática, isso significa realizar os testes apenas em ambientes controlados, com dados públicos ou sintéticos, obtendo consentimento informado caso haja participação humana, e garantindo que todas as informações analisadas sejam anonimizadas.
 
 	
 
@@ -488,10 +489,17 @@ Essas precauções colocam o projeto em conformidade com o princípio da não ma
 
 **3\)	Ferramentas de Coleta de Dados**  
 **3.1) nome do instrumento e objetivo de aplicação**  
+**Instrumento:** Sessão de brainstorming de necessidades e percepções.
+**Objetivo:** identificar expectativas, medos e sugestões de funcionalidades para um sistema que detecte golpes e deepfakes em ligações.
 **3.2) explicar como aplicar (serve para normalizar o processo de aplicação quando pessoas distintas aplicam o instrumento)**  
+	- Reunir 8–10 participantes (idosos, pessoas da área jurídica, profissionais de segurança, familiares de idosos). <br>
+	- Moderador apresenta o tema: “O que você esperaria de um sistema que te protegesse de chamadas falsas?” <br>
+	- Etapa 1: ideias individuais. <br>
+	- Etapa 2: compartilhamento em grupo, sem julgamento por parte dos convidados e da moderacao. <br> 
+	- Moderador anota todas as ideias em mural (fisico ou digital). <br>
 **3.3) instrumento (por exemplo, link do questionário no Google Forms, roteiro de entrevista, roteiro do Grupo Focal, etc)**
-
-# 
+	- **Formato:** Sessão coletiva on-line (Google Meet) ou presencial, com 8 a 10 participantes.
+	- **Materiais:** Apresentação introdutória (slides curtos), mural digital (Miro, Jamboard ou quadro físico), post-its virtuais/físicos, planilha para registro das ideias.
 
 # **Entrega 8  (data) \[em andamento/concluído\]**
 
