@@ -501,7 +501,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 	- **Formato:** Sessão coletiva on-line (Google Meet) ou presencial, com 8 a 10 participantes.
 	- **Materiais:** Apresentação introdutória (slides curtos), mural digital (Miro, Jamboard ou quadro físico), post-its virtuais/físicos, planilha para registro das ideias.
 
-# **Entrega 8  (data) \[em andamento/concluído\]**
+# **Entrega 8  (Concluído)<br>
 
 **\[1 solução por equipe\]**
 
@@ -543,22 +543,24 @@ ISO/IEC 27001 — Segurança da Informação | Norma internacional que define re
 
    1. **Qualitativo**
 
-    
-
+    - Clareza e simplicidade na comunicação: A interface deve ser compreensível para usuários com diferentes níveis de letramento digital. Todas as mensagens de resultado devem ser redigidas em linguagem natural, evitando termos técnicos. <br>
+	- Acessibilidade e inclusão: A interface deve seguir princípios de contraste, tipografia legível e suporte a leitores de tela, de modo que pessoas idosas ou com limitações visuais consigam usar o aplicativo sem dificuldade. <br>
+	- Notificação clara de indisponibilidade da plataforma: O sistema deve informar o usuário de forma imediata e compreensível sempre que estiver fora de serviço — seja por falha de conexão, manutenção ou instabilidade do servidor. A mensagem de aviso deve indicar o motivo e sugerir ações simples, como “verifique sua internet” ou “tente novamente mais tarde”.<br>
+ 	- Explicação clara dos motivos dos resultados: O aplicativo deve oferecer explicações breves sobre o motivo de um áudio ser classificado como suspeito, para que o usuário entenda o resultado e possa agir com segurança.<br>
+  	- Sensação de confiança e proteção: A identidade visual, o tom de linguagem e os feedbacks do sistema devem transmitir credibilidade, estabilidade e segurança. O usuário deve sentir que a plataforma o está protegendo e que seus dados estão sendo tratados com responsabilidade.<br>
 
    2. **Quantitativo**  
       
 
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
+| Facilidade de Aprendizado | 20% | A plataforma deve ser intuitiva, permitindo que qualquer usuário — mesmo com baixo letramento digital — aprenda rapidamente a utilizá-la sem necessidade de suporte externo. |
+| Facilidade de Memorização | 20% | O fluxo de uso deve ser simples e previsível, permitindo que o usuário lembre facilmente como realizar as principais ações mesmo após um período sem utilizar o aplicativo. |
+| Eficiência | 20% | O sistema deve oferecer acesso rápido e direto à ferramenta principal de análise, reduzindo o número de etapas e o tempo necessário para concluir cada operação. |
+| Baixa taxa de erro | 20% | A interface deve evitar ambiguidades e minimizar erros de interação, garantindo que o usuário não se confunda durante o envio ou a interpretação dos resultados. |
+| Satisfação do Usuário | 20% | O uso da plataforma deve gerar uma experiência positiva, fazendo com que o usuário se sinta seguro, confiante e protegido ao receber os resultados da análise.|
 | **Total** | **100%** |  |
 
-      
 
 # **Entrega 9 (data) \[em andamento/concluído\]**
 
