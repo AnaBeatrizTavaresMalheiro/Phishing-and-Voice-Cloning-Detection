@@ -534,7 +534,7 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 Diretrizes Éticas para Inteligência Artificial — UNESCO (2021) | Documento internacional que estabelece princípios éticos para o uso da IA, incluindo transparência, responsabilidade e respeito aos direitos humanos. Serve de base para o uso responsável dos modelos de detecção de deepfake. | https://unesdoc.unesco.org/ark:/48223/pf0000380455 |
 ISO/IEC 27001 — Segurança da Informação | Norma internacional que define requisitos para um sistema de gestão da segurança da informação (SGSI). Aplica-se ao tratamento e armazenamento dos áudios enviados pelos usuários. | https://www.iso.org/standard/27001.html | 
 | OWASP — Open Worldwide Application Security Project | Organização internacional sem fins lucrativos que define boas práticas e diretrizes de segurança para aplicações web e móveis. O projeto adota os princípios da OWASP Top 10, garantindo proteção contra vulnerabilidades como injeção de código, falhas de autenticação, exposição de dados sensíveis, controle inadequado de acesso e uso inseguro de APIs. Fundamenta a camada de segurança cibernética do sistema e orienta o desenvolvimento seguro do aplicativo e do backend. | https://owasp.org/Top10/ | 
-| Regras de Negócio Internas do Projeto | • O áudio só pode ser processado mediante consentimento explícito do usuário.<br>• Nenhum dado de voz é armazenado após a conclusão da análise, apenas resultados agregados e estatísticos.<br>• O sistema deve priorizar explicabilidade — o usuário deve compreender, de forma simples, o resultado da análise. | - |
+| Regras de Negócio Internas do Projeto | • O áudio só pode ser processado mediante consentimento explícito do usuário.|  |
 |  | . |  |
 
    
