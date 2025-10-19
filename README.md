@@ -514,10 +514,10 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 
 | Característica | Descrição |
 | :---- | :---- |
-| Descrição do Software |  |
-| Descrição do Hardware |  |
-| LISTA DE Capacidades da Plataforma (com explicação) |  |
-| LISTA DE Restrições da Plataforma (com explicação) |  |
+| Descrição do Software | Aplicativo móvel que permite ao usuário enviar uma gravação de áudio para um servidor remoto. O servidor processa o arquivo utilizando modelos de detecção de fraude e de deepfake, retornando o resultado da análise.|
+| Descrição do Hardware | Compatível com qualquer smartphone moderno que possua microfone e conexão à internet. Não há dependência de hardware específico.|
+| LISTA DE Capacidades da Plataforma (com explicação) | • Análise de gravações de áudio: o sistema aceita arquivos de áudio enviados pelo usuário para avaliação.<br>• Gravação direta: o aplicativo permite capturar o áudio diretamente do microfone do dispositivo, sem necessidade de aplicativos externos.<br>• Suporte multilíngue: o modelo é capaz de processar áudios em diferentes idiomas, sem necessidade de configuração manual.<br>• Classificação detalhada: a plataforma fornece as probabilidades associadas à autenticidade do áudio — indicando se é genuíno, fraudulento ou gerado por deepfake.|
+| LISTA DE Restrições da Plataforma (com explicação) | • Sem processamento offline: as análises ocorrem exclusivamente no servidor, após o envio do áudio.<br>• Sem análise em tempo real: o sistema não processa transmissões de voz ao vivo.<br>• Foco exclusivo em áudio: vídeos e imagens não são aceitos como entrada.|
 
    
 
