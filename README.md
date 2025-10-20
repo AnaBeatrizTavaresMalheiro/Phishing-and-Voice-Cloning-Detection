@@ -567,6 +567,24 @@ ISO/IEC 27001 — Segurança da Informação | Norma internacional que define re
 **\[1 solução completa por pessoa da equipe\]**
 
 1) **Cenários de Interação (destacar em cor diferente o texto alterado entre Cenário Problema e Cenário de Interação)**
+1.1) Cenário 1: <br>
+## Cenário de interação feito pela Ana
+A Dra. Fernanda, perita judicial, **acessa o sistema de análise de áudio e realiza o upload das gravações recebidas** em diferentes formatos, como mp3 e wav [01]. Muitas vezes, os arquivos **possuem baixa qualidade ou ausência de metadados claros**, o que **dificulta o processamento automático e exige conferência manual** [01]. Ela **utiliza o sistema para verificar indícios de manipulação e gerar relatórios que apoiem decisões judiciais** [08], mas **só consegue iniciar a análise quando o material está íntegro e em formatos compatíveis** [09]. <br>
+
+Sua rotina é marcada pela **gestão de múltiplos casos com prazos processuais apertados**, exigindo precisão para **não comprometer a credibilidade do tribunal** [10]. Ela **segue padrões legais e forenses integrados ao sistema** [02], embora **ainda dependa de validações manuais em etapas específicas** [03][06], o que **gera retrabalho e incertezas nos resultados**. **O sistema exibe campos configuráveis** para indicar se o laudo deve conter apenas a detecção de manipulação ou também **percentuais de probabilidade associados à autenticidade** [05]. Nessa dinâmica, **os juízes e advogados são notificados automaticamente** e **recebem os resultados por meio do painel do tribunal digital** [11].<br>
+
+O evento que **dispara a interação é o recebimento de um áudio contestado em tribunal**, que **é registrado e anexado eletronicamente ao caso** [12]. A Dra. Fernanda **executa as etapas de análise assistida**, **solicita explicações interpretáveis geradas pelo sistema sobre os indícios detectados** [04][05] e, ao final, **exporta relatórios técnicos em PDF ou XML para anexar ao processo eletrônico** [02][07]. Apesar de seguir o fluxo recomendado e as boas práticas de análise de áudio, **a perita ainda precisa validar manualmente os resultados para confirmar a presença ou ausência de manipulação** [13].<br>
+
+1.2)Cenário 2: <br>
+## Cenário de interação criado pelo Bruno<br>
+
+Ricardo, analista de segurança em uma instituição financeira, **acessa o sistema corporativo e realiza o upload diário de grandes volumes de áudios suspeitos** [01], pois **as campanhas de phishing em massa são automaticamente detectadas e centralizadas no painel de incidentes**. Esses áudios podem ser **deepfakes ou tentativas de engenharia social** [06], e o sistema **classifica automaticamente o conteúdo conforme padrões de risco identificados**. **O módulo de detecção reduz falsos positivos e negativos** [02], **permitindo a priorização dos casos mais críticos e diminuindo o tempo gasto com áudios legítimos**. Agora, os arquivos **são armazenados em servidores internos e organizados automaticamente por categorias de risco** [03], enquanto **casos de risco financeiro imediato ou envolvendo clientes estratégicos são destacados pelo sistema** [04].<br>
+
+Ricardo **valida as análises apresentadas e toma decisões com base nos alertas do sistema**, pois **um erro pode expor clientes e comprometer a reputação da empresa** [07]. Para isso, **os áudios são processados com verificação de qualidade mínima e metadados obrigatórios** [08]. Ele **atua sob forte pressão por respostas rápidas**, mas **o sistema fornece dashboards com indicadores de prioridade e status de análise** [09]. Sua atenção e experiência **ainda são fundamentais na validação dos resultados**, embora **a triagem automática reduza a sobrecarga causada pelo alto volume de casos** [10]. <br>
+
+Atualmente, **o processo é iniciado com a escuta e transcrição automática do áudio**, seguida pela **análise de padrões suspeitos e cálculo do score de risco probabilístico** [05], **exibido em uma interface visual com destaque para ameaças prioritárias** [11]. Ricardo **revê e confirma os resultados sugeridos pelo sistema, podendo ajustar classificações ou registrar feedbacks que aprimoram o modelo**. Apesar da automação, **ainda é necessário validar manualmente alguns casos, pois nem sempre é possível afirmar com total certeza se o áudio foi corretamente classificado como fraude ou legítimo** [12].<br>
+
+
 
 2) **Design Centrado na Comunicação**
 
