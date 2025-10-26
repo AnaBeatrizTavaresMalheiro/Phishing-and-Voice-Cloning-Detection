@@ -593,23 +593,14 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 | **Tópico / Subtópico (Diálogo)** | **Falas e Signos** |
 |----------------------------------|---------------------|
 | **>Acessar sistema** | **U (Dra. Fernanda):** Preciso analisar as novas gravações recebidas para o caso “Processo 0483/25”.<br>**D (Sistema):** Bem-vinda, Dra. Fernanda. Deseja iniciar uma nova análise ou continuar um caso existente? |
-
 | **>Enviar gravações (Upload de arquivos)** | **U:** Vou fazer o upload dos arquivos enviados pelo tribunal.<br>**D:** Os arquivos podem ser em formatos **.mp3, .wav, .flac** (**Signo: formato/áudio**). Deseja aplicar **pré-processamento automático** para normalizar o áudio (**Signo: processamento**)?<br>**U:** Sim, aplique o pré-processamento. |
-
 | **>Conferir compatibilidade e metadados (Verificação de integridade)** | **D:** Detectei que um dos arquivos está corrompido e outro não possui metadados. Deseja tentar recuperar automaticamente ou revisar manualmente? (**Signo: alerta de integridade**)<br>**U:** Revisar manualmente, preciso garantir a integridade do material. |
-
 | **>Definir parâmetros do laudo (Configuração da análise)** | **U:** O laudo deve incluir detecção de manipulação e percentuais de probabilidade.<br>**D:** Configuração registrada. Deseja adicionar observações sobre a origem dos áudios? (**Signo: campo de observações**)<br>**U:** Sim, são gravações extraídas de mensagens enviadas via aplicativo móvel. |
-
 | **>Processar e gerar resultados (Execução da análise)** | **D:** Iniciando análise... (**Signo: análise automatizada**)<br>(Barra de progresso e visualização dos espectrogramas)<br>**D:** Foram detectadas anomalias em 2 dos 5 arquivos. Deseja visualizar explicações interpretáveis?<br>**U:** Sim, preciso entender os indícios de manipulação. |
-
 | **>Exibir justificativas técnicas (Explicabilidade)** | **D:** A manipulação pode estar associada a cortes abruptos e variações de ruído em 02:17 e 03:45.<br>**U:** Gere uma visualização comparando as regiões suspeitas com o áudio original.<br>**D:** Exibindo gráfico comparativo (**Signo: visualização técnica**). Deseja incluir esta figura no laudo?<br>**U:** Sim. |
-
 | **>Revisar resultados (Validação manual)** | **U:** Preciso confirmar se a alteração é real ou resultado de compressão.<br>**D:** Deseja aplicar a validação manual guiada? Isso exibirá trechos com marcações automáticas e sugestões de análise (**Signo: validação assistida**).<br>**U:** Ativar modo de validação manual. |
-
 | **>Exportar laudo técnico (Geração do relatório)** | **D:** Deseja gerar o laudo com assinatura digital e formato **PDF** ou **XML** (**Signo: exportação de relatório**)?<br>**U:** Ambos. Inclua os metadados e as explicações interpretáveis.<br>**D:** Relatórios gerados com sucesso e anexados ao caso 0483/25. |
-
 | **>Comunicação com o tribunal (Notificação automática)** | **D:** Juiz e advogados foram notificados automaticamente via painel do tribunal digital (**Signo: notificação automática**). Deseja visualizar o histórico de envio?<br>**U:** Sim, para registrar no controle de prazos. |
-
 | **>Conclusão e próximos passos (Encerramento da análise)** | **D:** Análise concluída. Deseja configurar lembrete para reanálise após novas evidências?<br>**U:** Sim, em 10 dias. Obrigada.<br>**D:** Lembrete configurado para 04/11 (**Signo: confirmação de ação**). |
 
 
@@ -623,23 +614,14 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 | **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
 |:-----------|:-----------|:----------------|:----------------------|:------------------------------|:------------------|:---------------|:----------------|
 | **formato/áudio** | domínio (upload de arquivos) | Representa os tipos de arquivos aceitos pelo sistema (.mp3, .wav, .flac) | arquivo de áudio | deve ser compatível e íntegro | — | PP: validação de formato no upload | RA: mensagem de erro e opção de reenviar |
-
 | **processamento** | sistema | Ação de pré-processar o áudio para normalização e conversão de taxa de amostragem | operação automática | requer permissão do usuário | desativado | PP: confirmação antes da execução | RA: reprocessar arquivo |
-
 | **alerta de integridade** | sistema | Indica arquivos corrompidos ou com ausência de metadados | notificação visual e textual | disparado apenas em falhas de leitura | inativo | PP: checagem prévia de metadados | RA: opção de recuperação automática ou manual |
-
 | **campo de observações** | interface | Área para anotar informações contextuais sobre o caso ou o áudio | texto | tamanho limitado a 500 caracteres | vazio | PP: limite de caracteres | RA: edição e atualização manual |
-
 | **análise automatizada** | sistema | Processo de detecção de manipulação sonora e geração de resultados | operação técnica | requer áudio íntegro e compatível | — | PP: validação antes da execução | RA: reanalisar após correção de erros |
-
 | **visualização técnica** | sistema | Exibição de gráficos, espectrogramas e comparações de trechos de áudio | visual | acessível apenas após análise concluída | oculto até a execução | PP: aviso de carregamento | RA: recarregar visualização |
-
 | **validação assistida** | sistema + usuário | Etapa guiada para confirmação manual dos resultados detectados | interação guiada | apenas para usuários autenticados | desativada | PP: requer autenticação | RA: reiniciar sessão de validação |
-
 | **exportação de relatório** | sistema | Geração de laudo técnico em formato PDF e XML | documento | precisa de campos obrigatórios preenchidos | PDF | PP: checagem de campos antes da exportação | RA: exibir mensagem e permitir nova tentativa |
-
 | **notificação automática** | sistema | Envio de resultados para juízes e advogados via painel do tribunal digital | mensagem digital | só ocorre após conclusão da análise | ativo | PP: confirmação de destinatários | RA: reenvio automático em caso de falha |
-
 | **confirmação de ação** | sistema | Mensagem final de encerramento ou agendamento de reanálise | diálogo | opcional | exibe data configurada | PP: confirmação do usuário | RA: editar lembrete posteriormente |
 
 
