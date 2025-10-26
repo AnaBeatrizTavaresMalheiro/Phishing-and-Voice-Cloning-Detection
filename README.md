@@ -620,7 +620,14 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 
 3) **Mapa de Objetivos (cada um coloca seu mapa de objetivos e deverá ter um diagrama de consolidação)**
 
-4) **Esquema Conceitual de Signos**
+## Mapa de Objetivos feito pela Ana - Dra. Fernanda (perita judicial)
+<img width="953" height="1205" alt="Blank board_Ana" src="https://github.com/user-attachments/assets/0fd9aec6-80a5-4f91-a497-0c0ffb3afdf5" />
+
+
+## Mapa de Objetivos feito pelo Bruno – Sistema de Análise de Áudio Corporativo (Ricardo)
+<img width="1235" height="1205" alt="Blank board_ bruno" src="https://github.com/user-attachments/assets/35fb767f-d1d1-40d4-8cb6-d40d785b6482" />
+
+5) **Esquema Conceitual de Signos**
 
 ## Esquema Conceitual de Signos feito pela Ana - Dra. Fernanda (perita judicial)
 
