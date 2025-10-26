@@ -592,29 +592,30 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 
 | **Tópico / Subtópico (Diálogo)** | **Falas e Signos** |
 |----------------------------------|---------------------|
-| **>Acessar sistema** | **U (Dra. Fernanda):** Preciso analisar as novas gravações recebidas para o caso “Processo 0483/25”.<br>**D (Sistema):** Bem-vinda, Dra. Fernanda. Deseja iniciar uma nova análise ou continuar um caso existente? |
-| **>Enviar gravações (Upload de arquivos)** | **U:** Vou fazer o upload dos arquivos enviados pelo tribunal.<br>**D:** Os arquivos podem ser em formatos **.mp3, .wav, .flac** (**Signo: formato/áudio**). Deseja aplicar **pré-processamento automático** para normalizar o áudio (**Signo: processamento**)?<br>**U:** Sim, aplique o pré-processamento. |
-| **>Conferir compatibilidade e metadados (Verificação de integridade)** | **D:** Detectei que um dos arquivos está corrompido e outro não possui metadados. Deseja tentar recuperar automaticamente ou revisar manualmente? (**Signo: alerta de integridade**)<br>**U:** Revisar manualmente, preciso garantir a integridade do material. |
-| **>Definir parâmetros do laudo (Configuração da análise)** | **U:** O laudo deve incluir detecção de manipulação e percentuais de probabilidade.<br>**D:** Configuração registrada. Deseja adicionar observações sobre a origem dos áudios? (**Signo: campo de observações**)<br>**U:** Sim, são gravações extraídas de mensagens enviadas via aplicativo móvel. |
-| **>Processar e gerar resultados (Execução da análise)** | **D:** Iniciando análise... (**Signo: análise automatizada**)<br>(Barra de progresso e visualização dos espectrogramas)<br>**D:** Foram detectadas anomalias em 2 dos 5 arquivos. Deseja visualizar explicações interpretáveis?<br>**U:** Sim, preciso entender os indícios de manipulação. |
-| **>Exibir justificativas técnicas (Explicabilidade)** | **D:** A manipulação pode estar associada a cortes abruptos e variações de ruído em 02:17 e 03:45.<br>**U:** Gere uma visualização comparando as regiões suspeitas com o áudio original.<br>**D:** Exibindo gráfico comparativo (**Signo: visualização técnica**). Deseja incluir esta figura no laudo?<br>**U:** Sim. |
-| **>Revisar resultados (Validação manual)** | **U:** Preciso confirmar se a alteração é real ou resultado de compressão.<br>**D:** Deseja aplicar a validação manual guiada? Isso exibirá trechos com marcações automáticas e sugestões de análise (**Signo: validação assistida**).<br>**U:** Ativar modo de validação manual. |
+| **>Acessar sistema** | **U:** Preciso analisar gravações recebidas para o caso “Processo 0483/25”.<br>**D:** Bem-vinda, Dra. Fernanda. Deseja iniciar uma nova análise ou consultar histórico? |
+| **>Enviar gravações (Upload de arquivos)** | **U:** Vou fazer o upload de um novo arquivo enviado pelo tribunal.<br>**D:** Os arquivos podem ser em formatos **.mp3, .wav, .flac** (**Signo: formato/áudio**) |
+| **>Conferir compatibilidade e metadados (Verificação de integridade)** | **D:** Detectei que o arquivo está em formato não aceito pelo sistema . Por favor, encaminhe um arquivo aceito. (**Signo: alerta de integridade**)|
+| **>Definir parâmetros do laudo (Configuração da análise)** | **U:** O laudo deve incluir detecção de manipulação e percentuais de probabilidade.<br>**D:** Configuração registrada. |
+| **>Processar e gerar resultados (Execução da análise)** | **D:** Iniciando análise... (**Signo: análise automatizada**)<br>(Barra de progresso e visualização dos espectrogramas)<br>**D:** Foram detectadas anomalias no arquivo. Deseja visualizar explicações interpretáveis?<br>**U:** Sim, preciso entender os indícios de manipulação. |
+| **>Exibir justificativas técnicas (Explicabilidade)** | **D:** A manipulação pode estar associada a cortes abruptos e variações de ruído em 02:17 e 03:45.<br>**U:** Inclua essa informação no laudo final. |
+| **>Revisar resultados (Validação manual)** | **U:** Preciso confirmar se a alteração é real e analisar o audio.<br> |
 | **>Exportar laudo técnico (Geração do relatório)** | **D:** Deseja gerar o laudo com assinatura digital e formato **PDF** ou **XML** (**Signo: exportação de relatório**)?<br>**U:** Ambos. Inclua os metadados e as explicações interpretáveis.<br>**D:** Relatórios gerados com sucesso e anexados ao caso 0483/25. |
 | **>Comunicação com o tribunal (Notificação automática)** | **D:** Juiz e advogados foram notificados automaticamente via painel do tribunal digital (**Signo: notificação automática**). Deseja visualizar o histórico de envio?<br>**U:** Sim, para registrar no controle de prazos. |
-| **>Conclusão e próximos passos (Encerramento da análise)** | **D:** Análise concluída. Deseja configurar lembrete para reanálise após novas evidências?<br>**U:** Sim, em 10 dias. Obrigada.<br>**D:** Lembrete configurado para 04/11 (**Signo: confirmação de ação**). |
 
 
 # Design Centrado na Comunicação feito pelo Bruno – Cenário: Ricardo, Analista de Segurança
 
 | **Tópico e Subtópico (diálogo)** | **Falas e Signos** |
 |:---------------------------------|:------------------|
-| **Recebimento e upload de áudios suspeitos** | **U:** Preciso realizar o upload diário dos (**Signo: áudios suspeitos**) detectados nas campanhas de (**Signo: phishing**).<br>**D:** Envie os (**Signo: arquivos de áudio**) (formatos aceitos: **.mp3**, **.wav**) para o (**Signo: painel de incidentes**). O sistema fará a (**Signo: classificação automática**). |
-| **Classificação automática de conteúdo** | **D:** Os (**Signo: áudios**) estão sendo analisados. O sistema identifica (**Signo: deepfakes**) e (**Signo: tentativas de engenharia social**) com base nos (**Signo: padrões de risco**).<br>**U:** Quero visualizar apenas os (**Signo: casos críticos / prioritários**). |
-| **Organização e priorização de casos** | **D:** Os (**Signo: arquivos**) foram organizados automaticamente por (**Signo: categorias de risco**). Casos de (**Signo: risco financeiro imediato**) e (**Signo: clientes estratégicos**) estão destacados.<br>**U:** Vou focar na validação dos (**Signo: casos críticos**) primeiro. |
-| **Validação e decisão do analista** | **D:** Aqui estão os (**Signo: resultados da análise automática**) com os (**Signo: scores de risco probabilísticos**).<br>**U:** Validarei manualmente os (**Signo: resultados**), ajustarei as (**Signo: classificações**) incorretas e registrarei (**Signo: feedbacks**). |
-| **Painel de indicadores e performance** | **D:** O (**Signo: dashboard**) mostra o (**Signo: status das análises**), (**Signo: nível de prioridade**) e (**Signo: tempo médio de resposta**).<br>**U:** Esses (**Signo: indicadores**) ajudam a (**Signo: reduzir falsos positivos**) e priorizar os (**Signo: casos urgentes**). |
-| **Exportação de relatórios e registro de incidentes** | **U:** Preciso exportar o (**Signo: relatório técnico**) dos (**Signo: áudios classificados como fraude**).<br>**D:** Gerando (**Signo: relatório PDF/XML**) com (**Signo: validação manual**).<br>**U:** Enviarei o documento ao (**Signo: painel de segurança corporativa**). |
-| **Aprendizado e melhoria contínua do sistema** | **D:** Seus (**Signo: feedbacks**) foram registrados. Os (**Signo: modelos de detecção**) serão atualizados com base nas suas (**Signo: validações**).<br>**U:** Isso vai (**Signo: melhorar a acurácia**) e (**Signo: diminuir a sobrecarga**) nas próximas análises. |
+| **Recebimento e upload de áudios suspeitos** | **U:** Preciso realizar a análise de áudios suspeitos detectados nas campanhas de phishing.<br>**D:** Você deseja submeter um áudio ou realizar a gravação ao vivo?<br>**U:** Submeter áudio |
+| **>Enviar gravações (Upload de arquivos)** | **D:** Envie os arquivos de áudio (formatos aceitos: **.mp3**, **.wav**). (**Signo: formato/áudio**) |
+| **>Conferir compatibilidade e metadados (Verificação de integridade)** | **D:** Os arquivos são compatíveis com os formatos **.mp3, .wav, .flac**. (**Signo: formato/áudio**, **Signo: alerta de integridade**) |
+| **>Definir parâmetros do laudo (Configuração da análise)** | **U:** Gostaria de realizar a análise padrão do sistema: detecção de phishing e deepfakes |
+| **Classificação automática de conteúdo** | **D:** Os áudios estão sendo analisados. O sistema identifica deepfakes e tentativas de engenharia social com base nos padrões de risco.<br>**U:** Quero visualizar apenas os casos críticos/prioritários |
+| **Organização e priorização de casos** | **D:** Os arquivos foram organizados automaticamente por categorias de risco. Casos de risco financeiro imediato e clientes estratégicos estão destacados.<br>**U:** Vou focar na validação dos casos críticos primeiro |
+| **Validação e decisão do analista** | **D:** Aqui estão os resultados da análise automática com os scores de risco probabilísticos.<br>**U:** Validarei manualmente os resultados |
+| **Painel de indicadores e performance** | **D:** O dashboard mostra o status das análises e o nível de prioridade.<br>**U:** Esses indicadores ajudam a reduzir falsos positivos e priorizar os casos urgentes |
+| **Exportação de relatórios e registro de incidentes** | **U:** Preciso exportar o relatório técnico dos áudios classificados como fraude.<br>**D:** Gerando relatório PDF/XML. (**Signo: validação manual**)<br>**U:** Enviarei o documento ao painel de segurança corporativa |
 
 
 3) **Mapa de Objetivos (cada um coloca seu mapa de objetivos e deverá ter um diagrama de consolidação)**
@@ -623,36 +624,34 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 
 ## Esquema Conceitual de Signos feito pela Ana - Dra. Fernanda (perita judicial)
 
+| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção (PP)** | **recuperação (RA)** |
+|:-----------|:-----------|:----------------|:--------------------|:----------------------------|:-----------------|:-----------------|:------------------|
+| **formato/áudio** | upload de arquivos | Representa os formatos aceitos pelo sistema (.mp3, .wav, .flac) | arquivo de áudio | deve ser compatível e íntegro | — | validação de formato no upload | mensagem de erro e opção de reenviar |
+| **alerta de integridade** | sistema | Indica arquivos corrompidos ou não aceitos | notificação visual e textual | disparado apenas em falhas de leitura | inativo | checagem prévia de metadados | opção de reenvio do arquivo |
+| **configuração do laudo** | interface | Parâmetros do laudo: detecção de manipulação e percentuais de probabilidade | interação de usuário | requer definição antes da análise | vazio | validação de campos antes de iniciar análise | permitir edição antes de processar |
+| **análise automatizada** | sistema | Processo de detecção de manipulação e geração de resultados | operação técnica | requer áudio íntegro e compatível | — | validação de pré-processamento | reanalisar após correção de erros |
+| **visualização de resultados** | sistema | Exibição de anomalias detectadas, espectrogramas e explicações interpretáveis | visual/interativa | acessível após execução da análise | oculto até análise concluída | aviso de carregamento | recarregar visualização |
+| **explicabilidade** | sistema | Justificativas técnicas sobre os indícios detectados | texto e gráficos | só após análise concluída | — | validação de parâmetros do laudo | atualizar após nova análise |
+| **validação manual** | usuário | Confirmação manual dos resultados detectados | interação guiada | apenas usuários autenticados | desativada | autenticação do usuário | reiniciar sessão de validação |
+| **exportação de relatório** | sistema | Geração de laudo em PDF ou XML com metadados e explicações | documento | requer campos obrigatórios preenchidos | PDF | checagem de campos antes da exportação | exibir mensagem e permitir nova tentativa |
+| **notificação automática** | sistema | Envio de resultados para juízes e advogados via painel do tribunal digital | mensagem digital | só ocorre após conclusão da análise | ativo | confirmação de destinatários | reenvio automático em caso de falha |
 
-| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
-|:-----------|:-----------|:----------------|:----------------------|:------------------------------|:------------------|:---------------|:----------------|
-| **formato/áudio** | domínio (upload de arquivos) | Representa os tipos de arquivos aceitos pelo sistema (.mp3, .wav, .flac) | arquivo de áudio | deve ser compatível e íntegro | — | PP: validação de formato no upload | RA: mensagem de erro e opção de reenviar |
-| **processamento** | sistema | Ação de pré-processar o áudio para normalização e conversão de taxa de amostragem | operação automática | requer permissão do usuário | desativado | PP: confirmação antes da execução | RA: reprocessar arquivo |
-| **alerta de integridade** | sistema | Indica arquivos corrompidos ou com ausência de metadados | notificação visual e textual | disparado apenas em falhas de leitura | inativo | PP: checagem prévia de metadados | RA: opção de recuperação automática ou manual |
-| **campo de observações** | interface | Área para anotar informações contextuais sobre o caso ou o áudio | texto | tamanho limitado a 500 caracteres | vazio | PP: limite de caracteres | RA: edição e atualização manual |
-| **análise automatizada** | sistema | Processo de detecção de manipulação sonora e geração de resultados | operação técnica | requer áudio íntegro e compatível | — | PP: validação antes da execução | RA: reanalisar após correção de erros |
-| **visualização técnica** | sistema | Exibição de gráficos, espectrogramas e comparações de trechos de áudio | visual | acessível apenas após análise concluída | oculto até a execução | PP: aviso de carregamento | RA: recarregar visualização |
-| **validação assistida** | sistema + usuário | Etapa guiada para confirmação manual dos resultados detectados | interação guiada | apenas para usuários autenticados | desativada | PP: requer autenticação | RA: reiniciar sessão de validação |
-| **exportação de relatório** | sistema | Geração de laudo técnico em formato PDF e XML | documento | precisa de campos obrigatórios preenchidos | PDF | PP: checagem de campos antes da exportação | RA: exibir mensagem e permitir nova tentativa |
-| **notificação automática** | sistema | Envio de resultados para juízes e advogados via painel do tribunal digital | mensagem digital | só ocorre após conclusão da análise | ativo | PP: confirmação de destinatários | RA: reenvio automático em caso de falha |
-| **confirmação de ação** | sistema | Mensagem final de encerramento ou agendamento de reanálise | diálogo | opcional | exibe data configurada | PP: confirmação do usuário | RA: editar lembrete posteriormente |
 
 # Esquema Conceitual de Signos feito pelo Bruno – Sistema de Análise de Áudio Corporativo (Ricardo)
 
-| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
-|:-----------|:-----------|:----------------|:----------------------|:------------------------------|:------------------|:---------------|:----------------|
-| **áudios suspeitos** | input do usuário | Arquivos enviados por Ricardo para análise diária | arquivo de áudio | não nulo, compatível (.mp3, .wav) | — | PP: validação de formato e integridade no upload | RA: alerta de falha e opção de reenviar |
-| **painel de incidentes** | sistema | Centraliza os áudios e alertas de phishing detectados | interface / visualização | acessível apenas a usuários autenticados | — | PP: atualização automática do painel | RA: reload manual ou reconexão |
-| **classificação automática** | sistema / módulo de detecção | Detecta **deepfakes** e **tentativas de engenharia social**, atribuindo **score de risco probabilístico** | operação automática / texto | requer áudio íntegro e compatível | — | PP: validação antes da execução | RA: reprocessar áudio ou classificação manual |
-| **score de risco probabilístico** | módulo analítico | Probabilidade de fraude calculada pelo sistema | numérico (0–100) | deve ser gerado após análise | 0 | PP: limites de confiança definidos | RA: recalcular após revisão manual |
-| **casos críticos / prioritários** | sistema | Áudios de maior risco, incluindo **risco financeiro imediato** e **clientes estratégicos** | alerta visual / categórico | deve seguir limiar de prioridade | — | PP: identificação automática de casos críticos | RA: intervenção manual pelo analista |
-| **categorias de risco** | sistema | Organização automática dos áudios por criticidade | texto / categórico | deve seguir taxonomia predefinida | “baixo” | PP: checagem de consistência das categorias | RA: recategorização manual |
-| **resultados da análise automática** | sistema | Saída processada pronta para validação humana | relatório textual / visual | não nulo | — | PP: verificação antes da exibição | RA: reanálise manual dos resultados |
-| **feedbacks do analista** | usuário | Correções e sugestões para aprimorar o modelo | texto | não nulo | — | PP: campo obrigatório preenchido | RA: registro e reaplicação no modelo |
-| **dashboard / indicadores** | sistema | Mostra **status das análises**, **prioridade dos casos** e métricas de performance | interface visual / gráfico | atualizado em tempo real | pendente | PP: refresh automático | RA: reload manual |
-| **relatório técnico** | sistema | Exportação de PDF ou XML com dados de risco e validação | documento | campos obrigatórios preenchidos | PDF | PP: checagem de campos antes da exportação | RA: regeneração do relatório |
-| **modelos de detecção** | sistema / algoritmo | Aprimorados continuamente com base em **feedbacks** | algoritmo / modelo | atualizados periodicamente | — | PP: validação de performance antes de rodar | RA: re-treinamento após revisão |
-| **confirmação de ação** | sistema | Mensagem final indicando que a análise foi concluída ou exportada | diálogo / alerta | opcional | exibe data de execução | PP: confirmação do usuário | RA: permitir nova confirmação ou edição |
+
+| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção (PP)** | **recuperação (RA)** |
+|:-----------|:-----------|:----------------|:--------------------|:----------------------------|:-----------------|:-----------------|:------------------|
+| **formato/áudio** | upload de arquivos | Representa os formatos aceitos pelo sistema (.mp3, .wav, .flac) | arquivo de áudio | deve ser compatível e íntegro | — | validação de formato no upload | mensagem de erro e opção de reenviar |
+| **alerta de integridade** | sistema | Indica arquivos corrompidos ou com metadados ausentes | notificação visual e textual | disparado apenas em falhas de leitura | inativo | checagem prévia de metadados | opção de recuperação ou reenvio |
+| **configuração da análise** | interface | Parâmetros para detecção de phishing e deepfakes | interação de usuário | deve ser definido antes da análise | padrão do sistema | validação de parâmetros antes de iniciar análise | permitir ajuste antes de processar |
+| **classificação automática** | sistema | Identificação de deepfakes e engenharia social conforme padrões de risco | operação técnica | requer áudio íntegro e compatível | — | validação prévia de qualidade do áudio | reprocessar arquivos com problemas |
+| **organização e priorização de casos** | sistema | Categoriza arquivos por risco; destaca casos críticos e clientes estratégicos | visual / organizacional | só após classificação automática | — | verificação automática de categorias | reorganizar após reclassificação |
+| **validação manual** | usuário | Revisão e confirmação dos resultados sugeridos pelo sistema | interação guiada | apenas usuários autenticados | desativada | autenticação do analista | reiniciar sessão de validação |
+| **painel de indicadores** | sistema | Dashboard com status de análises, prioridade e indicadores de performance | visual / informativo | acessível após análise automática | oculto até execução | carregamento correto dos dados | recarregar dashboard |
+| **exportação de relatório** | sistema | Geração de laudos em PDF/XML dos áudios classificados | documento | requer validação manual antes de exportar | PDF | checagem de campos antes da exportação | exibir mensagem e permitir nova tentativa |
+| **registro de incidentes** | sistema | Armazenamento dos relatórios no painel de segurança corporativa | documento / registro | só ocorre após validação | — | confirmação de envio | reenvio manual em caso de falha |
+
 
 
 # **Entrega 10 (data) \[em andamento/concluído\]**
