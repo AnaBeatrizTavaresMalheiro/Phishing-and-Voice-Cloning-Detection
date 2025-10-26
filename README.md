@@ -604,6 +604,19 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 | **>Conclusão e próximos passos (Encerramento da análise)** | **D:** Análise concluída. Deseja configurar lembrete para reanálise após novas evidências?<br>**U:** Sim, em 10 dias. Obrigada.<br>**D:** Lembrete configurado para 04/11 (**Signo: confirmação de ação**). |
 
 
+# Design Centrado na Comunicação feito pelo Bruno – Cenário: Ricardo, Analista de Segurança
+
+| **Tópico e Subtópico (diálogo)** | **Falas e Signos** |
+|:---------------------------------|:------------------|
+| **Recebimento e upload de áudios suspeitos** | **U:** Preciso realizar o upload diário dos (**Signo: áudios suspeitos**) detectados nas campanhas de (**Signo: phishing**).<br>**D:** Envie os (**Signo: arquivos de áudio**) (formatos aceitos: **.mp3**, **.wav**) para o (**Signo: painel de incidentes**). O sistema fará a (**Signo: classificação automática**). |
+| **Classificação automática de conteúdo** | **D:** Os (**Signo: áudios**) estão sendo analisados. O sistema identifica (**Signo: deepfakes**) e (**Signo: tentativas de engenharia social**) com base nos (**Signo: padrões de risco**).<br>**U:** Quero visualizar apenas os (**Signo: casos críticos / prioritários**). |
+| **Organização e priorização de casos** | **D:** Os (**Signo: arquivos**) foram organizados automaticamente por (**Signo: categorias de risco**). Casos de (**Signo: risco financeiro imediato**) e (**Signo: clientes estratégicos**) estão destacados.<br>**U:** Vou focar na validação dos (**Signo: casos críticos**) primeiro. |
+| **Validação e decisão do analista** | **D:** Aqui estão os (**Signo: resultados da análise automática**) com os (**Signo: scores de risco probabilísticos**).<br>**U:** Validarei manualmente os (**Signo: resultados**), ajustarei as (**Signo: classificações**) incorretas e registrarei (**Signo: feedbacks**). |
+| **Painel de indicadores e performance** | **D:** O (**Signo: dashboard**) mostra o (**Signo: status das análises**), (**Signo: nível de prioridade**) e (**Signo: tempo médio de resposta**).<br>**U:** Esses (**Signo: indicadores**) ajudam a (**Signo: reduzir falsos positivos**) e priorizar os (**Signo: casos urgentes**). |
+| **Exportação de relatórios e registro de incidentes** | **U:** Preciso exportar o (**Signo: relatório técnico**) dos (**Signo: áudios classificados como fraude**).<br>**D:** Gerando (**Signo: relatório PDF/XML**) com (**Signo: validação manual**).<br>**U:** Enviarei o documento ao (**Signo: painel de segurança corporativa**). |
+| **Aprendizado e melhoria contínua do sistema** | **D:** Seus (**Signo: feedbacks**) foram registrados. Os (**Signo: modelos de detecção**) serão atualizados com base nas suas (**Signo: validações**).<br>**U:** Isso vai (**Signo: melhorar a acurácia**) e (**Signo: diminuir a sobrecarga**) nas próximas análises. |
+
+
 3) **Mapa de Objetivos (cada um coloca seu mapa de objetivos e deverá ter um diagrama de consolidação)**
 
 4) **Esquema Conceitual de Signos**
@@ -624,6 +637,22 @@ Atualmente, **o processo é iniciado com a escuta e transcrição automática do
 | **notificação automática** | sistema | Envio de resultados para juízes e advogados via painel do tribunal digital | mensagem digital | só ocorre após conclusão da análise | ativo | PP: confirmação de destinatários | RA: reenvio automático em caso de falha |
 | **confirmação de ação** | sistema | Mensagem final de encerramento ou agendamento de reanálise | diálogo | opcional | exibe data configurada | PP: confirmação do usuário | RA: editar lembrete posteriormente |
 
+# Esquema Conceitual de Signos feito pelo Bruno – Sistema de Análise de Áudio Corporativo (Ricardo)
+
+| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção** | **recuperação** |
+|:-----------|:-----------|:----------------|:----------------------|:------------------------------|:------------------|:---------------|:----------------|
+| **áudios suspeitos** | input do usuário | Arquivos enviados por Ricardo para análise diária | arquivo de áudio | não nulo, compatível (.mp3, .wav) | — | PP: validação de formato e integridade no upload | RA: alerta de falha e opção de reenviar |
+| **painel de incidentes** | sistema | Centraliza os áudios e alertas de phishing detectados | interface / visualização | acessível apenas a usuários autenticados | — | PP: atualização automática do painel | RA: reload manual ou reconexão |
+| **classificação automática** | sistema / módulo de detecção | Detecta **deepfakes** e **tentativas de engenharia social**, atribuindo **score de risco probabilístico** | operação automática / texto | requer áudio íntegro e compatível | — | PP: validação antes da execução | RA: reprocessar áudio ou classificação manual |
+| **score de risco probabilístico** | módulo analítico | Probabilidade de fraude calculada pelo sistema | numérico (0–100) | deve ser gerado após análise | 0 | PP: limites de confiança definidos | RA: recalcular após revisão manual |
+| **casos críticos / prioritários** | sistema | Áudios de maior risco, incluindo **risco financeiro imediato** e **clientes estratégicos** | alerta visual / categórico | deve seguir limiar de prioridade | — | PP: identificação automática de casos críticos | RA: intervenção manual pelo analista |
+| **categorias de risco** | sistema | Organização automática dos áudios por criticidade | texto / categórico | deve seguir taxonomia predefinida | “baixo” | PP: checagem de consistência das categorias | RA: recategorização manual |
+| **resultados da análise automática** | sistema | Saída processada pronta para validação humana | relatório textual / visual | não nulo | — | PP: verificação antes da exibição | RA: reanálise manual dos resultados |
+| **feedbacks do analista** | usuário | Correções e sugestões para aprimorar o modelo | texto | não nulo | — | PP: campo obrigatório preenchido | RA: registro e reaplicação no modelo |
+| **dashboard / indicadores** | sistema | Mostra **status das análises**, **prioridade dos casos** e métricas de performance | interface visual / gráfico | atualizado em tempo real | pendente | PP: refresh automático | RA: reload manual |
+| **relatório técnico** | sistema | Exportação de PDF ou XML com dados de risco e validação | documento | campos obrigatórios preenchidos | PDF | PP: checagem de campos antes da exportação | RA: regeneração do relatório |
+| **modelos de detecção** | sistema / algoritmo | Aprimorados continuamente com base em **feedbacks** | algoritmo / modelo | atualizados periodicamente | — | PP: validação de performance antes de rodar | RA: re-treinamento após revisão |
+| **confirmação de ação** | sistema | Mensagem final indicando que a análise foi concluída ou exportada | diálogo / alerta | opcional | exibe data de execução | PP: confirmação do usuário | RA: permitir nova confirmação ou edição |
 
 
 # **Entrega 10 (data) \[em andamento/concluído\]**
