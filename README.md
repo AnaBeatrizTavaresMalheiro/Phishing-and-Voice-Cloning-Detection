@@ -487,19 +487,76 @@ Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a
 
 **\[PARTE B: 1 solução completa por pessoa da equipe \- e com técnicas diferente; questionário deve ser uma das técnicas escolhidas\]**
 
-**3\)	Ferramentas de Coleta de Dados**  
-**3.1) nome do instrumento e objetivo de aplicação**  
-**Instrumento:** Sessão de brainstorming de necessidades e percepções.
-**Objetivo:** identificar expectativas, medos e sugestões de funcionalidades para um sistema que detecte golpes e deepfakes em ligações.
-**3.2) explicar como aplicar (serve para normalizar o processo de aplicação quando pessoas distintas aplicam o instrumento)**  
-	- Reunir 8–10 participantes (idosos, pessoas da área jurídica, profissionais de segurança, familiares de idosos). <br>
-	- Moderador apresenta o tema: “O que você esperaria de um sistema que te protegesse de chamadas falsas?” <br>
-	- Etapa 1: ideias individuais. <br>
-	- Etapa 2: compartilhamento em grupo, sem julgamento por parte dos convidados e da moderacao. <br> 
-	- Moderador anota todas as ideias em mural (fisico ou digital). <br>
-**3.3) instrumento (por exemplo, link do questionário no Google Forms, roteiro de entrevista, roteiro do Grupo Focal, etc)**
-	- **Formato:** Sessão coletiva on-line (Google Meet) ou presencial, com 8 a 10 participantes.
-	- **Materiais:** Apresentação introdutória (slides curtos), mural digital (Miro, Jamboard ou quadro físico), post-its virtuais/físicos, planilha para registro das ideias.
+# 3) Ferramentas de Coleta de Dados
+
+## 3.1) Nome do instrumento e objetivo de aplicação
+
+**Instrumento:** Sessão de *brainstorming* de necessidades e percepções.  
+
+**Objetivo de aplicação:**  
+Identificar expectativas, preocupações, percepções de risco e sugestões de funcionalidades para um sistema capaz de **detectar golpes e chamadas deepfake**.  
+A sessão busca compreender como diferentes perfis de usuários (idosos, profissionais da área jurídica e de segurança, além de familiares de idosos) percebem ameaças telefônicas, quais sinais associam a uma possível fraude e que tipo de suporte esperam de uma solução tecnológica voltada à prevenção de phishing por voz.
+
+---
+
+## 3.2) Explicação sobre como aplicar (procedimento padronizado)
+
+### **Etapas da aplicação**
+
+1. **Seleção dos participantes:**  
+   Convidar entre **8 e 10 pessoas** de diferentes perfis:  
+   - Idosos ou pessoas mais vulneráveis a golpes telefônicos;  
+   - Profissionais da área jurídica (por lidarem com fraudes e questões legais);  
+   - Profissionais de segurança da informação;  
+   - Familiares de idosos (que costumam intervir ou orientar sobre segurança digital).
+
+2. **Preparação do ambiente:**  
+   - A sessão pode ocorrer **on-line (via Google Meet)** ou **presencialmente**.  
+   - O ambiente deve permitir comunicação aberta e registro visual das ideias (quadro físico ou mural digital).  
+   - Duração total sugerida: **60 a 90 minutos**.
+
+3. **Abertura e contextualização:**  
+   - O **moderador** inicia a reunião apresentando o tema:  
+     > “O objetivo deste encontro é entender o que as pessoas esperam de um sistema que possa protegê-las contra chamadas telefônicas falsas, incluindo aquelas com vozes geradas por inteligência artificial (deepfakes).”  
+   - Regras básicas são explicadas: todos podem contribuir, nenhuma ideia será julgada, e todas as contribuições serão registradas.
+
+4. **Etapa 1 — Ideias individuais:**  
+   - Cada participante anota, de forma individual (em papel ou post-its virtuais), o que **espera**, **teme** e **gostaria de ver** em um sistema de proteção contra chamadas falsas.  
+   - Tempo estimado: **10–15 minutos**.
+
+5. **Etapa 2 — Compartilhamento em grupo:**  
+   - Os participantes compartilham suas ideias com o grupo.  
+   - O moderador apenas conduz o diálogo, **sem validar nem julgar** as sugestões.  
+   - Ideias semelhantes são agrupadas e categorizadas no mural (por exemplo: *funcionalidades desejadas*, *preocupações com privacidade*, *usabilidade*, *alertas esperados*, *nível de confiança*).
+
+6. **Encerramento:**  
+   - O moderador faz um breve resumo das categorias identificadas.  
+   - Agradece a participação e informa que as ideias coletadas serão analisadas para definir os **requisitos de interface e de experiência do usuário** do sistema.
+
+7. **Registro:**  
+   - Um observador (ou o próprio moderador) deve registrar todas as ideias em uma **planilha padronizada**, incluindo:  
+     - Nome/código do participante (ou pseudônimo);  
+     - Ideia sugerida;  
+     - Categoria atribuída;  
+     - Observações adicionais.
+
+---
+
+## 3.3) Instrumento
+
+**Formato:** Sessão coletiva on-line (Google Meet) ou presencial, com 8 a 10 participantes.  
+
+**Materiais necessários:**  
+- Apresentação introdutória (2–3 slides explicando o tema e os objetivos);  
+- Mural digital (*Miro*, *Jamboard* ou quadro físico com post-its);  
+- Post-its virtuais ou físicos para anotações individuais;  
+- Planilha de registro (Google Sheets ou Excel) para consolidar todas as ideias;  
+- Termo de consentimento (caso a sessão seja gravada).
+
+**Produtos esperados:**  
+- Lista categorizada de **necessidades dos usuários**, **preocupações éticas** e **ideias de funcionalidades**.  
+- Base para elaboração dos **requisitos de IHC** (Interface Humano-Computador) e para o **protótipo do sistema detector de phishing por voz**.
+
 
 # **Entrega 8  (Concluído)<br>
 
