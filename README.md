@@ -262,29 +262,32 @@ Sua rotina é marcada pela pressão de prazos processuais e pela responsabilidad
 O evento que dispara a perícia é o recebimento de um áudio contestado em tribunal [12]. Ricardo enfrenta a falta de explicações interpretáveis [04][05] e a necessidade de exportar relatórios formais em PDF ou XML [02][07]. Apesar de aplicar processos padrões e que seguem as boas práticas no quesito de análise de áudio, não consegue ter certeza se realmente é ou não um áudio manipulado [13].
 
 ### **Cenário de Análise/Problema 2 criado pelo Bruno]**
-Ricardo trabalha como Analista de Segurança da Informação de uma empresa financeira e recebe relatórios de clientes que sofreram tentativas de fraude por telefone. O time precisa priorizar incidentes, mas muitas ligações suspeitas são encaminhadas em massa para análise humana. É comum perder tempo com falsos positivos (áudios legítimos sinalizados) e falsos negativos (golpes avançam sem detecção). A equipe não tem uma forma rápida e confiável de distinguir entre manipulação sintética da voz e técnicas tradicionais de engenharia social, então investem tempo e recursos errados, expondo clientes a perdas financeiras.
+João é aposentado e mora em São Bernardo do Campo. Costuma usar o celular para se comunicar com a família e resolver tarefas cotidianas, mas sua pouca familiaridade com tecnologia o torna vulnerável a tentativas de fraude. Nos últimos meses, recebeu ligações supostamente de bancos e operadoras, em que vozes convincentes solicitavam confirmações de dados e códigos. Em alguns casos, a voz parecia idêntica à de atendentes reais, o que aumentou sua insegurança.
+Por não ter meios de verificar a autenticidade da chamada, João evita atender números desconhecidos e passa a depender de familiares para confirmar se pode confiar em uma ligação. Essa dependência reduz sua autonomia e cria medo no uso do telefone. A ausência de um recurso simples e automatizado que analise o áudio e identifique se a voz é real ou sintética faz com que ele continue exposto a golpes que exploram engenharia social e deepfakes. Uma solução que o auxiliasse de forma intuitiva e discreta permitiria que João recuperasse a confiança e a segurança ao se comunicar.
 
 ### **Questões de Refinamento Análise/Problema 2 criado pelo Bruno**
 
-| Tipo de Questão  | Questão                                                                 |
-|------------------|-------------------------------------------------------------------------|
-| **01 - Exploratória** | Por que o setor recebe tantos áudios suspeitos em curto espaço de tempo? |
-| **02 - Exploratória** | Por que falsos positivos e negativos atrapalham tanto a priorização de incidentes? |
-| **03 - Exploratória** | Como os áudios são armazenados, processados e separados hoje?|
-| **04 - Exploratória** | O que é considerado prioridade alta no fluxo de incidentes? |               |
-| **05 - Verificação**  | A triagem automática pode ser feita da maneira probabilística (ex.: score de risco)   |
-| **06 - Verificação**  | A análise de deepfake faz parte do processo de resposta a incidentes cibernéticos?   |
-| **07 - objetivo** | Por que ela precisa analisar de forma acertiva esses audios? |
-| **08 - objetivo** | Quais são as pre condições para ela poder analisar o áudio? |
-| **09 - ambiente** | Há uma pressão para a realização correta desses audios?|
-| **10 - ator** | Quais caracteristicas dela que auxilia ou atrapalha a execução? |               |
-| **11 - ação**  |  Quais são os passos atuais para a realização da naálise?  |
-| **12 - Avaliação**  | Como é possível saber se o áudio foi analisado corretamente?   |
+| Tipo de Questão       | Questão                                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **01 - Exploratória** | Por que João sente tanta insegurança ao atender ligações desconhecidas?                                              |
+| **02 - Exploratória** | O que faz com que ele confunda ligações reais com tentativas de golpe?                                               |
+| **03 - Exploratória** | Como João reage quando recebe uma ligação suspeita?                                                                  |
+| **04 - Exploratória** | Quais experiências passadas contribuíram para o medo de cair em golpes?                                              |
+| **05 - Verificação**  | João conseguiria usar um aplicativo que analisasse o áudio automaticamente, sem precisar interagir muito?            |
+| **06 - Verificação**  | O dispositivo que ele usa (smartphone comum) tem os recursos necessários para rodar essa análise de forma eficiente? |
+| **07 - Objetivo**     | Qual seria o principal ganho para João ao usar uma ferramenta que identifica vozes falsas?                           |
+| **08 - Objetivo**     | João quer apenas evitar golpes ou também deseja se sentir mais confiante ao usar o celular?                          |
+| **09 - Ambiente**     | Há alguém na família que o ajuda com tecnologia e que poderia influenciar na adoção da solução?                      |
+| **10 - Ator**         | Quais limitações de João (visuais, auditivas ou cognitivas) precisam ser consideradas no design da ferramenta?       |
+| **11 - Ação**         | Como ele verifica hoje se uma ligação é confiável? Ele consulta alguém, pesquisa o número ou apenas evita atender?   |
+| **12 - Avaliação**    | Como saber se João se sente realmente protegido e confiante usando o sistema?                                        |
+
 
 ### **Refinamento do Cenário Análise/Problema 2 criado pelo Bruno**
-Ricardo, analista de segurança em uma instituição financeira, recebe diariamente um grande volume de áudios suspeitos [01], pois campanhas de phishing em massa atingem vários clientes ao mesmo tempo. Esses áudios podem ser deepfakes ou golpes de engenharia social [06], mas o time não tem uma forma automática de diferenciá-los. Os falsos positivos e negativos [02] dificultam a priorização, já que áudios legítimos consomem tempo enquanto fraudes avançam. Hoje, eles são armazenados em servidores internos e separados manualmente [03], sendo tratados como prioridade os casos de risco financeiro imediato ou clientes estratégicos [04].<br>
-
-Ricardo precisa ser assertivo porque um erro pode expor clientes e comprometer a reputação da empresa [07]. Para isso, o áudio deve chegar com qualidade mínima e metadados básicos [08], mas ela trabalha sob forte pressão por respostas rápidas [09]. Sua atenção e experiência ajudam na triagem, embora o excesso de volume seja um obstáculo [10]. Atualmente, os passos [11] envolvem ouvir o áudio, transcrever e checar padrões suspeitos. Uma triagem probabilística com score de risco [05] tornaria esse processo mais eficiente. Por mais experiência que a Carolina tenha desenvolvido ao longo dos anos, ainda nõ é possível dizer com firmeza que o audio foi analisado corretamente ou não [12].<br>
+João é aposentado e mora em São Bernardo do Campo. Usa o celular para falar com a família e resolver tarefas do dia a dia, mas sua pouca familiaridade com tecnologia o torna vulnerável a fraudes [01]. Recebeu ligações de falsos atendentes de bancos e operadoras, com vozes muito parecidas às reais, o que aumentou sua insegurança [01][02].
+Quando suspeita de algo, ele costuma desligar e pedir ajuda aos filhos [03][04][11], pois tem receio de agir sozinho. Atualmente, por mais que o celular dele seja mais do que capaz de processar uma análise de uma gravação de telefone[06], não há nenhuma ferramenta ou aplicativo que ele consiguiria utilizar em seu celular e fazer a análise de forma autonoma [05].
+João deseja poder atender chamadas com segurança e sentir-se independente novamente [07][08]. Ele mora longe da família, o que dificulta as vezes ter a ajuda dos familiares para analisarem as ligações no dia a dia[09]. Por ser mais de idade, possui dificuldade para escutar e ver, dificultando ainda mais a análise por conta própria das ligações [10].
+Hoje ele anota números suspeitos e pede para que alguém os verifique ou se há algum familiar por perto, acaba passando o telefone para ele[11]. Atualmente, nada faz com que ele se sinta seguro e confiante quando se trata de ligações telefonicas, ele precisaria de algo que o protegesse de forma a não precisar de seus familiares[12].
 # **Entrega 5  (Concluído)<br>
 
 **\[1 solução por pessoa\]**
