@@ -689,6 +689,7 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
    
 | **AMBIENTE DE ANÁLISE (A) - AMBIENTE DA ANÁLISE DO CALLSHIELD** |
 | :-------------------------------------------------------------: |
+
 | **signo**                         | **origem**   | **observações**                                | **tipo de conteúdo**    | **restrição sobre conteúdo**         | **valor default** | **prevenção**                              | **recuperação**                                      |
 | :-------------------------------- | :----------- | :--------------------------------------------- | :---------------------- | :----------------------------------- | :---------------- | :----------------------------------------- | :--------------------------------------------------- |
 | **áudio**                         | domínio      | Áudio que o sistema analisará ou analisou      | arquivo de mídia sonora | deve estar em formato aceito         | —                 | **PP+PA:** apenas formatos válidos         | **RA:** solicita reenvio no formato correto          |
