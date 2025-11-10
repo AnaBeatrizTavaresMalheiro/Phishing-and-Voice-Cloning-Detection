@@ -678,7 +678,8 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 3) **Mapa de Objetivos (cada um coloca seu mapa de objetivos e deverá ter um diagrama de consolidação)**
 
 ## Mapa de Objetivos feito pela Ana - Dra. Fernanda (perita judicial)
-<img width="953" height="1205" alt="Blank board_Ana" src="https://github.com/user-attachments/assets/0fd9aec6-80a5-4f91-a497-0c0ffb3afdf5" />
+<img width="1010" height="788" alt="image" src="https://github.com/user-attachments/assets/fc125cfc-becd-4bec-845d-72ab1e2f8fa8" />
+
 
 
 ## Mapa de Objetivos feito pelo Bruno – Sistema de Análise de Áudio Corporativo (Ricardo)
