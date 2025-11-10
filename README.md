@@ -653,29 +653,18 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 
 ## Design Centrado na Comunicação feito pela Ana - Dra. Fernanda (perita judicial)
 
-| **Tópico / Subtópico (Diálogo)** | **Falas e Signos** |
-|----------------------------------|---------------------|
-| **analisar áudios** | **U:** Preciso das análises de gravações recebidas para o caso “Processo 0483/25”.<br>
-						**D:** Deseja iniciar uma nova análise ou consultar histórico? |
-| **>Enviar gravações (Upload de arquivos)** |  **U:** Vou fazer o upload de um novo arquivo enviado pelo tribunal.<br>
-												**D:** Os arquivos podem ser em formatos **.mp3, .wav, .flac** (**Signo: formato/áudio**) 
-												**U:** Esse é o arquivo da gravação qeu quero analisar: GravaçãoProcesso0483_25.audio.<br>|
-| **>Conferir compatibilidade e metadados (Verificação de integridade)** | **D:** Detectei que o arquivo está em formato não aceito pelo sistema . Por favor, encaminhe um arquivo aceito. (**Signo: alerta de integridade**)<br>
-																			**U:** Esse é o arquivoda gravação quu quero analisar, mas no formato aceito: GravaçãoProcesso0483_25.wav.<br>|
-| **>Definir parâmetros do laudo (Configuração da análise)** | **U:** O laudo deve incluir detecção de manipulação e percentuais de probabilidade.<br>**D:** Configuração registrada. |
-	| **>Processar e gerar resultados (Execução da análise)** | **D:** Iniciando análise... (**Signo: análise automatizada**)<br>(Barra de progresso e visualização dos espectrogramas)<br>**D:** Segue os resultados da análise de forma detalhada, com as probabilidades de ser um áudio sintético e um áudio fraudulento<br> **D:** Deseja extrair o relatório em formato PDF ou XML? <br> **U:** Não quero extrair.|
-| **Exportar laudo técnico (Geração do relatório)** |   **U:** Quero exportar uma análise já feita de um áudio. <br>
-													    **D:** Deseja iniciar uma nova análise ou consultar histórico? <br>
-														**U:** Quero consultar histórico. <br>
-														**D:** Segue o histórico de todos as análises feitas por você.<br> |
-| **>Escolha do áudio** | 								
-														**U:** Quero ver o relatório do áudio chamado GravaçãoProcesso0483_25.wav<br>
-														**D:** Segue o relatório da análise já feita do áudio chamado  GravaçãoProcesso0483_25.wav<br> |
-| **>Exportar laudo do áudio escolhido** |						
-														**U:** Quero exportar esse relatório <br>
-														**D:** Deseja gerar o laudo com assinatura digital e formato **PDF** ou **XML** (**Signo: exportação de relatório**)?
-														**U:** PDF<br>
-														**D:** Relatório salvo no dispositivo no formato PDF<br>
+| **Tópico / Subtópico (Diálogo)**                                        | **Falas e Signos**                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Analisar áudios**                                                     | **U:** Preciso das análises de gravações recebidas para o caso “Processo 0483/25”.<br>**D:** Deseja iniciar uma nova análise ou consultar histórico?                                                                                                                                                                                    |
+| **> Enviar gravações (Upload de arquivos)**                             | **U:** Vou fazer o upload de um novo arquivo enviado pelo tribunal.<br>**D:** Os arquivos podem ser em formatos **.mp3, .wav, .flac** (**Signo: formato/áudio**).<br>**U:** Esse é o arquivo da gravação que quero analisar: *GravaçãoProcesso0483_25.audio*.                                                                           |
+| **> Conferir compatibilidade e metadados (Verificação de integridade)** | **D:** Detectei que o arquivo está em formato não aceito pelo sistema. Por favor, encaminhe um arquivo aceito. (**Signo: alerta de integridade**).<br>**U:** Esse é o arquivo da gravação que quero analisar, mas agora no formato aceito: *GravaçãoProcesso0483_25.wav*.                                                               |
+| **> Definir parâmetros do laudo (Configuração da análise)**             | **U:** O laudo deve incluir detecção de manipulação e percentuais de probabilidade.<br>**D:** Configuração registrada.                                                                                                                                                                                                                  |
+| **> Processar e gerar resultados (Execução da análise)**                | **D:** Iniciando análise... (**Signo: análise automatizada**).<br>(Barra de progresso e visualização dos espectrogramas).<br>**D:** Seguem os resultados da análise, com as probabilidades de ser um áudio sintético e/ou fraudulento.<br>**D:** Deseja extrair o relatório em formato **PDF** ou **XML**?<br>**U:** Não quero extrair. |
+ 
+| **Exportar laudo técnico (Geração do relatório)**                       | **U:** Quero exportar uma análise já feita de um áudio.<br>**D:** Deseja iniciar uma nova análise ou consultar histórico?<br>**U:** Quero consultar histórico.<br>**D:** Segue o histórico de todas as análises feitas por você.                                                                                                        |
+| **> Escolha do áudio**                                                  | **U:** Quero ver o relatório do áudio chamado *GravaçãoProcesso0483_25.wav*.<br>**D:** Segue o relatório da análise já feita do áudio chamado *GravaçãoProcesso0483_25.wav*.                                                                                                                                                            |
+| **> Exportar laudo do áudio escolhido**                                 | **U:** Quero exportar esse relatório.<br>**D:** Deseja gerar o laudo com assinatura digital e formato **PDF** ou **XML** (**Signo: exportação de relatório**)?<br>**U:** PDF.<br>**D:** Relatório salvo no dispositivo no formato **PDF**.                                                                                              |
+
 												
 
 
