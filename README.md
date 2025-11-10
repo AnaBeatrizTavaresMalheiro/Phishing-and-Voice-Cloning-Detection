@@ -688,36 +688,19 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 
 5) **Esquema Conceitual de Signos**
 
-## Esquema Conceitual de Signos feito pela Ana - Dra. Fernanda (perita judicial)
-
-| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção (PP)** | **recuperação (RA)** |
-|:-----------|:-----------|:----------------|:--------------------|:----------------------------|:-----------------|:-----------------|:------------------|
-| **formato/áudio** | upload de arquivos | Representa os formatos aceitos pelo sistema (.mp3, .wav, .flac) | arquivo de áudio | deve ser compatível e íntegro | — | validação de formato no upload | mensagem de erro e opção de reenviar |
-| **alerta de integridade** | sistema | Indica arquivos corrompidos ou não aceitos | notificação visual e textual | disparado apenas em falhas de leitura | inativo | checagem prévia de metadados | opção de reenvio do arquivo |
-| **configuração do laudo** | interface | Parâmetros do laudo: detecção de manipulação e percentuais de probabilidade | interação de usuário | requer definição antes da análise | vazio | validação de campos antes de iniciar análise | permitir edição antes de processar |
-| **análise automatizada** | sistema | Processo de detecção de manipulação e geração de resultados | operação técnica | requer áudio íntegro e compatível | — | validação de pré-processamento | reanalisar após correção de erros |
-| **visualização de resultados** | sistema | Exibição de anomalias detectadas, espectrogramas e explicações interpretáveis | visual/interativa | acessível após execução da análise | oculto até análise concluída | aviso de carregamento | recarregar visualização |
-| **explicabilidade** | sistema | Justificativas técnicas sobre os indícios detectados | texto e gráficos | só após análise concluída | — | validação de parâmetros do laudo | atualizar após nova análise |
-| **validação manual** | usuário | Confirmação manual dos resultados detectados | interação guiada | apenas usuários autenticados | desativada | autenticação do usuário | reiniciar sessão de validação |
-| **exportação de relatório** | sistema | Geração de laudo em PDF ou XML com metadados e explicações | documento | requer campos obrigatórios preenchidos | PDF | checagem de campos antes da exportação | exibir mensagem e permitir nova tentativa |
-| **notificação automática** | sistema | Envio de resultados para juízes e advogados via painel do tribunal digital | mensagem digital | só ocorre após conclusão da análise | ativo | confirmação de destinatários | reenvio automático em caso de falha |
-
-
-# Esquema Conceitual de Signos feito pelo Bruno – Sistema de Análise de Áudio Corporativo (Ricardo)
-
-
-| **signo** | **origem** | **observações** | **tipo de conteúdo** | **restrição sobre conteúdo** | **valor default** | **prevenção (PP)** | **recuperação (RA)** |
-|:-----------|:-----------|:----------------|:--------------------|:----------------------------|:-----------------|:-----------------|:------------------|
-| **formato/áudio** | upload de arquivos | Representa os formatos aceitos pelo sistema (.mp3, .wav, .flac) | arquivo de áudio | deve ser compatível e íntegro | — | validação de formato no upload | mensagem de erro e opção de reenviar |
-| **alerta de integridade** | sistema | Indica arquivos corrompidos ou com metadados ausentes | notificação visual e textual | disparado apenas em falhas de leitura | inativo | checagem prévia de metadados | opção de recuperação ou reenvio |
-| **configuração da análise** | interface | Parâmetros para detecção de phishing e deepfakes | interação de usuário | deve ser definido antes da análise | padrão do sistema | validação de parâmetros antes de iniciar análise | permitir ajuste antes de processar |
-| **classificação automática** | sistema | Identificação de deepfakes e engenharia social conforme padrões de risco | operação técnica | requer áudio íntegro e compatível | — | validação prévia de qualidade do áudio | reprocessar arquivos com problemas |
-| **organização e priorização de casos** | sistema | Categoriza arquivos por risco; destaca casos críticos e clientes estratégicos | visual / organizacional | só após classificação automática | — | verificação automática de categorias | reorganizar após reclassificação |
-| **validação manual** | usuário | Revisão e confirmação dos resultados sugeridos pelo sistema | interação guiada | apenas usuários autenticados | desativada | autenticação do analista | reiniciar sessão de validação |
-| **painel de indicadores** | sistema | Dashboard com status de análises, prioridade e indicadores de performance | visual / informativo | acessível após análise automática | oculto até execução | carregamento correto dos dados | recarregar dashboard |
-| **exportação de relatório** | sistema | Geração de laudos em PDF/XML dos áudios classificados | documento | requer validação manual antes de exportar | PDF | checagem de campos antes da exportação | exibir mensagem e permitir nova tentativa |
-| **registro de incidentes** | sistema | Armazenamento dos relatórios no painel de segurança corporativa | documento / registro | só ocorre após validação | — | confirmação de envio | reenvio manual em caso de falha |
-
+| **signo**                   | **origem**         | **observações**                                                    | **tipo de conteúdo**         | **restrição sobre conteúdo**            | **valor default** | **prevenção (PP)**                     | **recuperação (RA)**                      |
+| :-------------------------- | :----------------- | :----------------------------------------------------------------- | :--------------------------- | :-------------------------------------- | :---------------- | :------------------------------------- | :---------------------------------------- |
+| **formato/áudio**           | upload de arquivos | Representa os formatos aceitos pelo sistema (.mp3, .wav, .flac)    | arquivo de áudio             | deve ser compatível e íntegro           | —                 | validação de formato no upload         | mensagem de erro e opção de reenviar      |
+| **alerta de integridade**   | sistema            | Indica arquivos corrompidos ou não aceitos                         | notificação visual e textual | disparado apenas em falhas de leitura   | inativo           | checagem prévia de metadados           | opção de reenvio do arquivo               |
+| **análise automatizada**    | sistema            | Processo de detecção de manipulação e geração de resultados        | operação técnica             | requer áudio íntegro e compatível       | —                 | validação de pré-processamento         | reanalisar após correção de erros         |
+| **barra de progresso**      | interface          | Representa o andamento da análise em tempo real                    | elemento visual              | ativa apenas durante a execução         | 0%                | atualização contínua                   | recarregar análise                        |
+| **indicador de confiança**  | sistema            | Exibe o nível de certeza sobre a autenticidade da voz              | métrica visual               | exibido após conclusão da análise       | 0%                | cálculo dinâmico de confiança          | recalcular após nova análise              |
+| **voz autêntica/sintética** | sistema            | Resultado da verificação de autenticidade vocal                    | texto visual                 | depende da conclusão da análise         | —                 | validação de modelo antes da decisão   | permitir nova verificação                 |
+| **resultado**               | sistema            | Mostra o resumo da análise com o status final (autêntico/suspeito) | texto e ícone                | aparece após o processamento            | oculto            | validação dos dados de saída           | reprocessar em caso de erro               |
+| **histórico de análises**   | sistema            | Exibe a lista de análises anteriores realizadas pelo usuário       | tabela informativa           | visível após autenticação do usuário    | vazio             | sincronização com base local           | recarregar histórico                      |
+| **relatório completo**      | sistema            | Documento detalhado com probabilidades e indícios detectados       | documento                    | acessível apenas após análise concluída | —                 | validação de conclusão                 | reemitir relatório em caso de falha       |
+| **exportação de relatório** | sistema            | Geração de laudo em PDF ou XML com metadados e explicações         | documento                    | requer análise concluída                | PDF               | checagem de campos antes da exportação | exibir mensagem e permitir nova tentativa |
+| **configuração da análise** | interface          | Parâmetros da análise, como tipo de verificação e profundidade     | interação de usuário         | deve ser definido antes da execução     | padrão do sistema | validação dos campos antes de iniciar  | permitir ajuste antes de processar        |
 
 
 # **Entrega 10 (data) \[em andamento/concluído\]**
