@@ -681,7 +681,7 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 
 
 
-## Mapa de Objetivos feito pelo Bruno – Sistema de Análise de Áudio Corporativo (Ricardo)
+## Mapa de Objetivos feito pelo Bruno –  João (pessoa idosa)
 <img width="1010" height="788" alt="image" src="https://github.com/user-attachments/assets/4c85af60-a52a-471a-a69d-eafad163fa5d" />
 
 
