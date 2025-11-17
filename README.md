@@ -717,12 +717,12 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 **\[1 solução completa por pessoa da equipe\]**
 
 **MOLIC**
+
+**DIAGRAMA MINIMALISTA**
 <img width="3607" height="2107" alt="Blank board (6)" src="https://github.com/user-attachments/assets/9c354942-290a-440f-9251-de1aae28061b" />
+**DIAGRAMA EXPANDIDO**
 <img width="3607" height="2744" alt="FluxoComplementar" src="https://github.com/user-attachments/assets/cff67ab4-3082-46b5-8d75-c19c090a210f" />
-
-**Nome do Cenário:**  
-**Diagrama:**
-
+ 
 # **Entrega 11 (data) \[em andamento/concluído\]**
 
 **\[1 solução completa por pessoa da equipe\]**
