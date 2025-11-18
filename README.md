@@ -799,7 +799,7 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | 3 | Grave | Problema de alta prioridade (deve ser reparado) |
 | 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
 
-1) **Avaliação de IHC através de inspeção HEURÍSTICA (Ana Beatriz)**
+## 1) **Avaliação de IHC através de inspeção HEURÍSTICA (Ana Beatriz)**
 
 **1. Visibilidade do status do sistema**
 Verificação: O sistema informa o usuário sobre o progresso com feedback adequado e em tempo razoável?
@@ -892,14 +892,14 @@ Não há tutorial ou guia de uso, dificultando especialmente para usuários mais
 Recomendação:
 Adicionar tutorial interativo na primeira execução e área de ajuda acessível no menu.
    
-3) **Avaliação de IHC através de inspeção HEURÍSTICA (Bruno)**
+## 3) **Avaliação de IHC através de inspeção HEURÍSTICA (Bruno)**
 
 
 
-4) **Final Avaliação de IHC através de inspeção HEURÍSTICA**
+## 4) **Final Avaliação de IHC através de inspeção HEURÍSTICA**
 
 
-5) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
+## 5) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
 
 **1. Compatibilidade entre o sistema e o mundo real — Boa prática**
 O sistema utiliza linguagem simples e direta para comunicar resultados complexos de forma acessível.
