@@ -756,19 +756,14 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 
 # **Entrega 13 (data) \[em andamento/concluído\]**
 
-DICA: MATERIAL ABAIXO DISPONÍVEL EM ARQUIVO NO MOODLE.
-
-1) **Avaliação de IHC através de inspeção HEURÍSTICA \[1 solução completa por pessoa da equipe \- todas as telas do projeto\]**
-
-**DICA: SOMENTE VIOLAÇÕES**
+**Fluxograma de Avaliação Heurística**
+<img width="4643" height="856" alt="Blank board (7)" src="https://github.com/user-attachments/assets/2ae5a169-9f8d-4fa2-a683-5fa35dab13fd" />
 
 Dez Heurísticas de Nielsen
 
 **Descrição da avaliação**
 
 Avaliação heurística, definida por Nielsen e Molich (1994), é um método de avaliação de usabilidade onde um avaliador procura problemas de usabilidade numa interface com o usuário através da análise e interpretação de um conjunto de princípios ou heurísticas. Este método de avaliação é baseado no julgamento do avaliador.
-
-1\. Primeiramente, leia e analise as dez heurísticas (ver Tabela 1).
 
 **Tabela 1 \- Conjunto de heurísticas de Nielsen (1994)**
 
@@ -794,9 +789,6 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | **10\.** | **Ajuda e documentação:** |
 | Mesmo que seja melhor que o sistema possa ser usado sem documentação, pode ser necessário fornecer ajuda e documentação. Tais informações devem ser fáceis de encontrar, ser centradas na tarefa do usuário, listar passos concretos a serem seguidos e não ser muito grandes. A ajuda deve estar facilmente acessível e on-line. |  |
 
-	2\. A seguir, avalie o sistema procurando possíveis problemas de usabilidade.   
-3\. Quando um problema qualquer for detectado, classifique-o em uma das dez heurísticas de Nielsen, anotando o problema na tabela correspondente e atribuindo o **grau de severidade** (0 até 4\) para este problema (dado pela tabela 2\) e recomece novamente até não encontrar mais problemas de usabilidade.
-
 **Tabela 2 \- Grau de severidade dos problemas de usabilidade**
 
 | Grau de severidade | Tipo | Descrição |
@@ -807,13 +799,122 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 | 3 | Grave | Problema de alta prioridade (deve ser reparado) |
 | 4 | Catastrófico | Muito grave, deve ser reparado de qualquer forma. |
 
-**\[colocar o print\]**
+1) **Avaliação de IHC através de inspeção HEURÍSTICA (Ana Beatriz)**
 
-**\[escolher a tabela de declaração de violação padrão da equipe\]**
+**1. Visibilidade do status do sistema**
+Verificação: O sistema informa o usuário sobre o progresso com feedback adequado e em tempo razoável?
+Severidade: Simples – 2
+Local:
+- Tela "Exportar Relatório"
+- Tela "Detalhamento do histórico"
+Justificativa:
+Durante a exportação do relatório, não há indicador de progresso. O usuário não sabe se a ação iniciou, está em andamento ou foi concluída.
+Recomendação:
+Implementar barra de progresso, indicador de carregamento ou pop-up de confirmação.
 
-2) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
+**2. Compatibilidade entre o sistema e o mundo real**
+Verificação: O sistema usa linguagem familiar e segue convenções do mundo real?
+Severidade: (vazio)
+Local: (vazio)
+Justificativa: (vazio)
+Recomendação: (vazio)
 
-**DICA: 1 EXEMPLO DO SEU SISTEMA ONDE A HEURÍSTICA FOI ATENDIDA (ISSO NÃO É USADO NO MERCADO, SERVE APENAS PARA APRENDIZADO)**
+**3. Liberdade e controle do usuário**
+Verificação: O usuário pode iniciar, cancelar e desfazer ações livremente?
+Severidade: Grave – 3
+Local:
+- "Carregamento da análise do áudio"
+- "Detalhamento do histórico"
+- "Resultado da análise"
+Justificativa:
+O usuário não pode cancelar a análise nem interromper a exportação do relatório, ficando preso ao processo.
+Recomendação:
+Adicionar botão de cancelamento nos processos de análise e exportação.
+
+**4. Consistência e padrões**
+Verificação: A interface mantém consistência de elementos e comportamentos?
+Severidade: (vazio)
+Local: (vazio)
+Justificativa: (vazio)
+Recomendação: (vazio)
+
+**5. Prevenção contra erros**
+Verificação: O sistema previne erros antes que aconteçam?
+Severidade: (vazio)
+Local: (vazio)
+Justificativa: (vazio)
+Recomendação: (vazio)
+
+**6. Reconhecimento em vez de lembrança**
+Verificação: O usuário precisa memorizar informações que poderiam ser exibidas pelo sistema?
+Severidade: Simples – 2
+Local:
+- Tela "Detalhamento da análise"
+Justificativa:
+A data da análise não é mostrada, obrigando o usuário a lembrar o número da análise para encontrá-la novamente.
+Recomendação:
+Exibir data e hora da análise.
+
+**7. Flexibilidade e eficiência de uso**
+Verificação: O sistema oferece opções rápidas ou personalizáveis aos usuários?
+Severidade: Cosmético – 1
+Local:
+- Fluxo "Nova análise"
+Justificativa:
+O usuário não pode escolher o tipo de análise, sendo limitado apenas à análise padrão.
+Recomendação:
+Permitir personalização, oferecendo seleção de tipos de análises.
+
+**8. Projeto estético e minimalista**
+Verificação: A interface apresenta somente informações essenciais?
+Severidade: (vazio)
+Local: (vazio)
+Justificativa: (vazio)
+Recomendação: (vazio)
+
+**9. Ajuda na detecção, diagnóstico e recuperação de erros**
+Verificação: As mensagens de erro são claras e ajudam o usuário a corrigir o problema?
+Severidade: Grave – 3
+Local:
+- Sistema como um todo
+Justificativa:
+Não existem mensagens de erro implementadas, impossibilitando que o usuário saiba o que ocorreu ou como resolver.
+Recomendação:
+Criar mensagens de erro claras, explicativas e com orientação de solução.
+
+**10. Ajuda e documentação**
+Verificação: O sistema oferece ajuda acessível e orientada às tarefas do usuário?
+Severidade: Grave – 3
+Local:
+- Interface geral
+Justificativa:
+Não há tutorial ou guia de uso, dificultando especialmente para usuários mais velhos ou iniciantes.
+Recomendação:
+Adicionar tutorial interativo na primeira execução e área de ajuda acessível no menu.
+   
+3) **Avaliação de IHC através de inspeção HEURÍSTICA (Bruno)**
+
+
+
+4) **Final Avaliação de IHC através de inspeção HEURÍSTICA**
+
+
+5) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
+
+**1. Compatibilidade entre o sistema e o mundo real — Boa prática**
+O sistema utiliza linguagem simples e direta para comunicar resultados complexos de forma acessível.
+Mesmo tratando de temas técnicos como phishing e deepfakes em áudio, a interface apresenta ao usuário informações claras como “Probabilidade de ser fraudulento” e “Probabilidade de ser sintético”, evitando termos técnicos desnecessários.
+Isso reduz a barreira de entendimento e facilita que qualquer usuário compreenda rapidamente o risco identificado.
+
+**2. Consistência e padrões — Boa prática**
+As telas mantêm um padrão consistente de organização, cores e componentes, o que ajuda o usuário a reconhecer funções e entender o fluxo do sistema. Botões, textos e indicadores seguem o mesmo estilo em todas as etapas da análise, garantindo uma experiência previsível e uniforme.
+
+**3. Prevenção contra erros — Boa prática**
+O sistema impede que o usuário avance no processo antes de fornecer um áudio válido para análise, evitando falhas como iniciar análises vazias ou incompletas. Essa validação automática reduz erros e garante que todas as etapas sejam executadas de forma correta.
+
+**4. Projeto estético e minimalista — Boa prática**
+A interface apresenta apenas os elementos necessários para cada etapa da análise, sem distrações ou excesso de informação.
+Os resultados são exibidos de forma objetiva, com indicadores de probabilidade e poucas linhas de texto, tornando a interpretação simples e rápida — ideal para usuários que precisam tomar decisões rápidas sobre possíveis fraudes.
 
 # **Entrega 14 (data) \[em andamento/concluído\]**
 
