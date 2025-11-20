@@ -821,10 +821,10 @@ Recomendação: Incluir indicador de carregamento.
 
 **2. Compatibilidade entre sistema e mundo real**
 Descrição: A interface deve refletir convenções do mundo físico e da linguagem humana.
-Severidade: 1 – Cosmético
-Local: Termos técnicos na página de histórico
-Justificativa: Alguns nomes usados para se referir às análises não são intuitivos para usuários leigos.
-Recomendação: Substituir termos técnicos por expressões mais familiares.
+Severidade: 
+Local: 
+Justificativa: 
+Recomendação:
 
 **3. Liberdade e controle do usuário**
 Descrição: Permitir que o usuário reverta ou cancele ações quando desejar.
@@ -850,7 +850,7 @@ Descrição: O sistema deve reduzir necessidade de memória do usuário.
 Severidade: 2 – Simples
 Local: Detalhamento da análise
 Justificativa: Faltam data e hora para facilitar reconhecimento da análise.
-Recomendação: Inserir data e hora no registro.
+Recomendação: Inserir data do registro.
 
 **7. Flexibilidade e eficiência de uso**
 Descrição: Usuários experientes devem ter atalhos e opções avançadas.
@@ -861,16 +861,16 @@ Recomendação: Adicionar opção de tipos de análise.
 
 **8. Projeto estético e minimalista**
 Descrição: A interface deve evitar excesso de informações.
-Local: —
-Justificativa: —
-Recomendação: —
+Severidade: 
+Local: 
+Justificativa: 
+Recomendação:
 
 **9. Ajuda na detecção e correção de erros**
-Descrição: Mensagens de erro devem ser claras e úteis.
-Severidade: 3 – Grave
-Local: Upload
-Justificativa: Quando o upload falha, nenhuma mensagem explica o motivo.
-Recomendação: Implementar mensagens de erro com orientação.
+Severidade: 
+Local: 
+Justificativa: 
+Recomendação:
 
 **10. Ajuda e documentação**
 Descrição: O sistema deve oferecer suporte acessível.
@@ -885,8 +885,8 @@ Recomendação: Criar um guia de primeiros passos.
 Descrição: O sistema deve fornecer retorno imediato após ações do usuário.
 Severidade: 3 – Grave
 Local: Tela de processamento
-Justificativa: O processo de análise mostra apenas uma tela estática, sem sinal de progresso.
-Recomendação: Exibir porcentagem ou tempo estimado.
+Justificativa: O processo de análise ao ser finalizado não apresenta uma mensagem de finalização antes de ir para a próxima tela.
+Recomendação: Adicionar pop-up de finalização da analise.
 
 **2. Compatibilidade entre sistema e mundo real**
 Descrição: Termos, ícones e fluxos devem corresponder ao entendimento do usuário.
@@ -903,18 +903,16 @@ Justificativa: Após escolher um arquivo errado, o usuário precisa voltar para 
 Recomendação: Inserir botão “trocar arquivo”.
 
 **4. Consistência e padrões**
-Descrição: A interface deve se comportar de forma coerente em todas as telas.
-Severidade: 2 – Simples
-Local: Navegação superior
-Justificativa: O botão “Voltar” muda de posição dependendo da tela.
-Recomendação: Padronizar posição do botão.
+Severidade: 
+Local: 
+Justificativa: 
+Recomendação:
 
 **5. Prevenção contra erros**
-Descrição: A interface deve impedir ações que causem falhas.
-Severidade: 1 – Cosmético
-Local: Campo de upload
-Justificativa: O botão continua ativo mesmo sem arquivo selecionado.
-Recomendação: Desativar botão até que um arquivo seja carregado.
+Severidade: 
+Local: 
+Justificativa: 
+Recomendação:
 
 **6. Reconhecimento em vez de lembrança**
 Descrição: O usuário não deve depender da memória para navegar.
@@ -933,7 +931,6 @@ Justificativa: Não há atalhos ou formas de reorganizar a visualização.
 Recomendação: Permitir ordenação por data, nome ou duração.
 
 **8. Projeto estético e minimalista**
-
 Descrição: A interface deve apresentar organização clara e foco no essencial.
 Severidade: 
 Local: 
@@ -941,11 +938,10 @@ Justificativa:
 Recomendação:
 
 **9. Ajuda na detecção e recuperação de erros**
-Descrição: Mensagens de erro devem orientar o usuário para solução.
-Severidade: 2 – Simples
-Local: Exportação
-Justificativa: O erro de falha de exportação não explica o motivo (ex.: falta de internet).
-Recomendação: Incluir texto explicativo e sugestões de como resolver.
+Severidade: 
+Local: 
+Justificativa: 
+Recomendação:
 
 **10. Ajuda e documentação**
 Descrição: Deve ser fácil para o usuário encontrar instruções e suporte.
@@ -958,58 +954,81 @@ Recomendação: Implementar central de ajuda e tutorial inicial.
 Resumo Geral da Avaliação
 A inspeção realizada por Ana Beatriz e Bruno identificou múltiplos pontos de melhoria no sistema, principalmente relacionados à ausência de feedback, falta de controle do usuário, informações insuficientes e inexistência de documentação ou mensagens de erro.
 
-Unificação das 10 heurísticas
 **1. Visibilidade do status do sistema**
-Descrição: O usuário deve sempre saber o que está acontecendo.
-Problema: Nenhum feedback durante exportações e carregamentos.
-Recomendação: Barra de progresso / indicadores de carregamento.
+Descrição: O sistema deve comunicar ao usuário sobre mudanças e processos em andamento.
+Problemas encontrados:
+Severidade: 2 – Simples
+Local: Tela de processamento e Exportação de relatório
+Justificativa: Ao finalizar a análise, não há mensagem informando a conclusão antes da mudança de tela. A ação de exportar não apresenta retorno visual imediato.
+Recomendação: 
+- Adicionar pop-up de finalização da análise.
+-  Incluir indicador de carregamento.
 
 **2. Compatibilidade entre sistema e mundo real**
-Descrição: Sistema deve falar a linguagem do usuário.
-Problema: Nenhum problema identificado.
-Recomendação: —
+
+Descrição: A interface deve refletir convenções do mundo físico e da linguagem humana.
+Problemas encontrados:
+Severidade: 2 – Simples
+Local: Tela de histórico
+Justificativa: A ordem das análises aparece como códigos internos, e não como datas.
+Recomendação: Exibir lista ordenada por datas.
 
 **3. Liberdade e controle do usuário**
-Descrição: Cancelar, desfazer, retomar ações livremente.
-Problema: Não é possível cancelar análise ou exportação; não há seleção de tipo de análise.
-Recomendação: Botão cancelar + personalização no fluxo “Nova análise”.
+
+Descrição: Permitir que o usuário reverta ou cancele ações quando desejar.
+Problemas encontrados:
+Severidade: 3 – Grave
+Local: Tela de nova análise e Execução da análise de áudio.
+Justificativa: Após escolher arquivo errado, o usuário precisa voltar ao menu principal.O usuário não pode interromper um processo que está demorando.
+Recomendação: 
+- Inserir botão “trocar arquivo”.
+-  Adicionar botão de cancelamento.
 
 **4. Consistência e padrões**
-Descrição: Manter padrões visuais e funcionais.
-Problema: Nenhum encontrado.
-Recomendação: —
+(Não houve apontamentos em nenhuma das análises.)
 
 **5. Prevenção contra erros**
-Descrição: Evitar que erros ocorram.
-Problema: Nenhum identificado.
-Recomendação: —
+(Não houve apontamentos em nenhuma das análises.)
 
 **6. Reconhecimento em vez de lembrança**
-Descrição: Não exigir que o usuário memorize informações.
-Problemas: Falta data e hora da análise; dificuldade para localizar registros.
+Descrição: O sistema deve reduzir necessidade de memória do usuário.
+Problemas encontrados:
+Severidade: 3 – Grave
+Local: Histórico de análises e Detalhamento da análise
+Justificativa: O sistema exige que o usuário saiba qual análise deseja consultar sem apresentar filtros. Faltam data e hora para facilitar o reconhecimento da análise.
 Recomendações:
-- Exibir data e hora;
-- Implementar filtros de busca (data, período, tipo).
+- Mostrar datas e nomes personalizados.
+- Adicionar filtros (por tipo e período).
 
 **7. Flexibilidade e eficiência de uso**
-Descrição: Permitir eficiência a usuários experientes.
-Problema: Não há personalização de análise.
-Recomendação: Disponibilizar seleção de tipos de análise.
+Descrição: Usuários experientes devem ter atalhos e opções avançadas.
+Problemas encontrados:
+Severidade: 2 – Simples
+Local: Nova análise e Listagem de resultados
+Justificativa: Não há opções de análise personalizada. Também não existem atalhos ou formas de reorganizar a visualização.
+Recomendações:
+- Adicionar opção de tipos de análise.
+- Permitir ordenação por data, nome ou duração.
 
 **8. Projeto estético e minimalista**
-Descrição: Apenas informações relevantes devem ser exibidas.
-Problema: Nenhum identificado.
-Recomendação: —
+Descrição: A interface deve apresentar organização clara e foco no essencial.
+Problemas encontrados:
+(Nenhum problema foi identificado nas análises.)
 
 **9. Ajuda na detecção e recuperação de erros**
-Descrição: Mensagens de erro devem orientar claramente o usuário.
-Problema: Sistema não possui mensagens de erro.
-Recomendação: Criar mensagens claras com orientação de solução.
+
+Problemas encontrados:
+(Nenhum problema foi identificado nas análises.)
 
 **10. Ajuda e documentação**
-Descrição: Sistema deve oferecer ajuda acessível.
-Problema: Não há tutorial, guia ou ajuda disponível.
-Recomendação: Criar tutorial inicial e página de ajuda.
+Descrição: O sistema deve oferecer suporte acessível.
+Problemas encontrados:
+Severidade: 3 – Grave
+Local: Menu principal e Navegação geral
+Justificativa: Não há tutorial inicial e o sistema não possui seção de ajuda.
+Recomendações:
+- Criar um guia de primeiros passos.
+- Implementar uma central de ajuda e tutorial inicial.
 
 
 ## 5) **INDICAÇÃO DE BOAS PRÁTICAS DE HEURÍSTICA \- HEURÍSTICAS NÃO VIOLADAS \[1 solução completa por pessoa da equipe\]**
