@@ -740,30 +740,23 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 
 1) **Planejamento de Usabilidade (método DECIDE)**
 
-
-| D | |
+| D | **1) Identificar problemas de interação e usabilidade do CallShield, garantindo que usuários de diferentes perfis consigam realizar as tarefas essenciais (enviar áudio, interpretar resultado, acessar histórico e exportar relatório). <br><br>2) Avaliar a apropriação da tecnologia pelos usuários, verificando se o sistema gera confiança, segurança e se consegue ser integrado ao cotidiano dos perfis envolvidos.** |
 | :---: | :---- |
-| **E** | Avaliar se os usuários (idosos, profissionais jurídicos e especialistas em segurança) conseguem interpretar resultados, enviar áudios, entender alertas e exportar relatórios com facilidade e confiança. |
-| **C** | Definir perguntas: O fluxo é compreensível? Os usuários entendem os termos? A análise é clara? O sistema evita erros? O histórico e relatório são fáceis de acessar? |
-| **I** | Identificar aspectos práticos: participantes, ambiente (remoto ou presencial), materiais, tarefas (upload, análise, leitura do resultado, exportação), gravações opcionais, tempo total e perfil dos usuários. |
-| **D** | Decidir sobre questões éticas: consentimento, anonimização dos dados, evitar conteúdos sensíveis, garantia de privacidade, evitar causar medo/ansiedade em usuários idosos. |
-| **E** | A análise e produção dos resultados precisam considerar vários aspectos — taxa de sucesso, comportamento observado, erros cometidos, tempo de execução, satisfação geral e recomendações para melhorias na interface. |
+| **E** | **Perguntas operacionais da avaliação:** <br><br>• Os usuários conseguem completar as tarefas essenciais sem ajuda? <br>• Onde ocorrem erros, dúvidas ou travamentos? <br>• O usuário entende o que cada elemento da interface significa? <br>• O sistema transmite segurança e clareza nos resultados? <br>• O uso real corresponde ao uso planejado? <br>• O sistema aumenta a confiança do usuário ao lidar com áudios suspeitos? |
+| **C** | Será utilizada a técnica de avaliação heurística e testes com usuários. |
+| **I** | Apresentado na entrega 13. |
+| **D** | **Sim.** A avaliação deve seguir princípios éticos, pois envolve áudios potencialmente sensíveis. É necessário garantir privacidade, anonimização dos dados, consentimento dos participantes e evitar qualquer exposição a conteúdos que gerem desconforto psicológico. O estudo deve seguir os princípios de não maleficência e justiça, utilizando apenas dados permitidos, ambientes controlados e informações protegidas. |
+| **E** | Apresentado na entrega 14. |
 
 ---
 
 ## 2) Lista de Instrumentos Utilizados
 
-1. **Questionário estruturado**
-   - Usado para coletar: idade, grau de instrução, formação acadêmica, estilo de aprendizado, alfabetismo computacional, experiência com tecnologia, equipamentos utilizados, conhecimento do domínio, objetivos, motivações e valores.
-
-2. **Sessão de Brainstorming**
-   - Utilizada para identificar expectativas, preocupações, percepções de risco e necessidades dos usuários em relação à detecção de golpes e deepfakes.
-
-3. **Planilha de Registro / Tabela de Observação**
-   - Usada para registrar ideias, categorias, comportamentos e observações feitas durante a coleta de dados.
-
-4. **Termo de Consentimento**
-   - Necessário para participação dos usuários, explicando objetivos, privacidade, riscos e autorização de gravação quando aplicável.
+1) Termo de consentimento  
+2) Questionários  
+3) Tabela de Observação  
+4) Formulário de avaliação Heuristica
+5) Sessão de Brainstorming.
 
 # **Entrega 13 (data) \[em andamento/concluído\]**
 
