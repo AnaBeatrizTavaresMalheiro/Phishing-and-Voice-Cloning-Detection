@@ -801,212 +801,147 @@ Avaliação heurística, definida por Nielsen e Molich (1994), é um método de 
 
 ## 1) **Avaliação de IHC através de inspeção HEURÍSTICA (Ana Beatriz)**
 
-1) Avaliação de IHC através de inspeção HEURÍSTICA (Ana Beatriz)
 **1. Visibilidade do status do sistema**
-Descrição: O sistema deve manter o usuário informado sobre o que está acontecendo, com feedback claro e imediato.
-Verificação: O sistema informa o usuário sobre o progresso com feedback adequado e em tempo razoável?
-Severidade: Simples – 2
-Local:
-- Tela "Exportar Relatório"
-- Tela "Detalhamento do histórico"
-Justificativa:
-Durante a exportação do relatório, não há indicador de progresso. O usuário não sabe se a ação iniciou, está em andamento ou foi concluída.
-Recomendação:
-Implementar barra de progresso, indicador de carregamento ou pop-up de confirmação.
+Descrição: O sistema deve comunicar ao usuário sobre mudanças e processos em andamento.
+Severidade: 2 – Simples
+Local: Exportação de relatório
+Justificativa: A ação de exportar não apresenta qualquer retorno visual imediato.
+Recomendação: Incluir indicador de carregamento.
 
-**2. Compatibilidade entre o sistema e o mundo real**
-Descrição: A interface deve usar linguagem e conceitos familiares ao usuário, seguindo convenções do mundo real.
-Verificação: O sistema usa linguagem familiar e segue convenções do mundo real?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+**2. Compatibilidade entre sistema e mundo real**
+Descrição: A interface deve refletir convenções do mundo físico e da linguagem humana.
+Severidade: 1 – Cosmético
+Local: Termos técnicos na página de histórico
+Justificativa: Alguns nomes usados para se referir às análises não são intuitivos para usuários leigos.
+Recomendação: Substituir termos técnicos por expressões mais familiares.
 
 **3. Liberdade e controle do usuário**
-Descrição: O usuário deve poder iniciar, cancelar, desfazer ou refazer ações livremente.
-Verificação: O usuário pode iniciar, cancelar e desfazer ações livremente?
-Severidade: Grave – 3
-Local:
-- Carregamento da análise do áudio
-- Detalhamento do histórico
-Resultado da análise
-Justificativa:
-O usuário não pode cancelar a análise nem interromper a exportação do relatório, ficando preso ao processo.
-Recomendação:
-Adicionar botão de cancelamento nos processos de análise e exportação.
+Descrição: Permitir que o usuário reverta ou cancele ações quando desejar.
+Severidade: 3 – Grave
+Local: Execução da análise de áudio
+Justificativa: O usuário não pode interromper um processo que está demorando.
+Recomendação: Adicionar botão de cancelamento.
 
 **4. Consistência e padrões**
-Descrição: O sistema deve seguir padrões visuais e comportamentais de forma consistente.
-Verificação: A interface mantém consistência de elementos e comportamentos?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+Descrição: O sistema deve manter padrões gráficos e funcionais coerentes.
+Local: —
+Justificativa: —
+Recomendação: —
 
 **5. Prevenção contra erros**
-Descrição: O sistema deve prevenir erros antes que aconteçam, oferecendo caminhos seguros.
-Verificação: O sistema previne erros antes que aconteçam?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+Descrição: Evitar que o usuário cometa erros antes que aconteçam.
+Local: —
+Justificativa: —
+Recomendação: —
 
 **6. Reconhecimento em vez de lembrança**
-Descrição: O sistema deve reduzir a carga de memória do usuário, apresentando informações importantes sempre que necessário.
-Verificação: O usuário precisa memorizar informações que poderiam ser exibidas pelo sistema?
-Severidade: Simples – 2
-Local:
-- Tela "Detalhamento da análise"
-Justificativa:
-A data da análise não é mostrada, obrigando o usuário a lembrar o número da análise para encontrá-la novamente.
-Recomendação:
-Exibir data e hora da análise.
+Descrição: O sistema deve reduzir necessidade de memória do usuário.
+Severidade: 2 – Simples
+Local: Detalhamento da análise
+Justificativa: Faltam data e hora para facilitar reconhecimento da análise.
+Recomendação: Inserir data e hora no registro.
 
 **7. Flexibilidade e eficiência de uso**
-Descrição: O sistema deve atender tanto iniciantes quanto usuários experientes, permitindo personalizações.
-Verificação: O sistema oferece opções rápidas ou personalizáveis aos usuários?
-Severidade: Cosmético – 1
-Local:
-- Fluxo "Nova análise"
-Justificativa:
-O usuário não pode escolher o tipo de análise, sendo limitado apenas à análise padrão.
-Recomendação:
-Permitir personalização oferecendo seleção de tipos de análises.
+Descrição: Usuários experientes devem ter atalhos e opções avançadas.
+Severidade: 1 – Cosmético
+Local: Nova análise
+Justificativa: Não há opções de análise personalizada.
+Recomendação: Adicionar opção de tipos de análise.
 
 **8. Projeto estético e minimalista**
-Descrição: Interfaces devem mostrar somente o essencial, evitando informações irrelevantes.
-Verificação: A interface apresenta somente informações essenciais?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+Descrição: A interface deve evitar excesso de informações.
+Local: —
+Justificativa: —
+Recomendação: —
 
-**9. Ajuda na detecção, diagnóstico e recuperação de erros**
-Descrição: Mensagens de erro devem ser claras e orientar o usuário na resolução do problema.
-Verificação: As mensagens de erro são claras e ajudam o usuário a corrigir o problema?
-Severidade: Grave – 3
-Local:
-- Sistema como um todo
-Justificativa:
-Não existem mensagens de erro implementadas, impossibilitando que o usuário saiba o que ocorreu ou como resolver.
-Recomendação:
-Criar mensagens de erro claras, explicativas e orientadas à solução.
+**9. Ajuda na detecção e correção de erros**
+Descrição: Mensagens de erro devem ser claras e úteis.
+Severidade: 3 – Grave
+Local: Upload
+Justificativa: Quando o upload falha, nenhuma mensagem explica o motivo.
+Recomendação: Implementar mensagens de erro com orientação.
 
 **10. Ajuda e documentação**
-Descrição: O sistema deve oferecer ajuda acessível, relevante e baseada em tarefas do usuário.
-Verificação: O sistema oferece ajuda acessível e orientada às tarefas do usuário?
-Severidade: Grave – 3
-Local:
-- Interface geral
-- Justificativa:
-Não há tutorial ou guia de uso, dificultando especialmente para usuários iniciantes.
-Recomendação:
-Adicionar tutorial interativo na primeira execução e área de ajuda no menu.
+Descrição: O sistema deve oferecer suporte acessível.
+Severidade: 2 – Simples
+Local: Menu principal
+Justificativa: Não há tutorial inicial.
+Recomendação: Criar um guia de primeiros passos.
 
 ## **3) Avaliação de IHC através de inspeção HEURÍSTICA (Bruno)**
 
 **1. Visibilidade do status do sistema**
-Descrição: O sistema deve informar claramente o que está acontecendo, com feedback imediato.
-Verificação: O sistema informa o usuário sobre o progresso com feedback adequado?
-Severidade: Simples – 2
-Local:
-- Exportação de relatório
-- Detalhamento do histórico
-Justificativa:
-O usuário não recebe indicação de que a exportação começou ou está em andamento.
-Recomendação:
-Inserir barra de progresso ou aviso visual.
+Descrição: O sistema deve fornecer retorno imediato após ações do usuário.
+Severidade: 3 – Grave
+Local: Tela de processamento
+Justificativa: O processo de análise mostra apenas uma tela estática, sem sinal de progresso.
+Recomendação: Exibir porcentagem ou tempo estimado.
 
-**2. Compatibilidade entre o sistema e o mundo real**
-Descrição: A interface deve seguir terminologias e padrões familiares ao usuário.
-Verificação: O sistema usa linguagem familiar e segue convenções do mundo real?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+**2. Compatibilidade entre sistema e mundo real**
+Descrição: Termos, ícones e fluxos devem corresponder ao entendimento do usuário.
+Severidade: 2 – Simples
+Local: Tela de histórico
+Justificativa: A ordem das análises aparece como códigos internos, e não como datas.
+Recomendação: Exibir lista ordenada por datas.
 
 **3. Liberdade e controle do usuário**
-Descrição: O usuário deve poder cancelar e desfazer ações sempre que necessário.
-Verificação: O usuário pode iniciar, cancelar e desfazer ações livremente?
-Severidade: Grave – 3
-Local:
-Análise do áudio
-Detalhamento do histórico
-Resultado da análise
-- Nova análise
-Justificativa:
-O sistema não permite cancelar processos em andamento e também não oferece personalização no início de uma nova análise.
-Recomendação:
-Adicionar botão de cancelamento e permitir escolha do tipo de análise.
+Descrição: O usuário deve controlar o fluxo e corrigir ações indesejadas.
+Severidade: 2 – Simples
+Local: Tela de nova análise
+Justificativa: Após escolher um arquivo errado, o usuário precisa voltar para o menu principal.
+Recomendação: Inserir botão “trocar arquivo”.
 
 **4. Consistência e padrões**
-Descrição: O sistema deve manter consistência visual e comportamental.
-Verificação: A interface mantém consistência de elementos e comportamentos?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+Descrição: A interface deve se comportar de forma coerente em todas as telas.
+Severidade: 2 – Simples
+Local: Navegação superior
+Justificativa: O botão “Voltar” muda de posição dependendo da tela.
+Recomendação: Padronizar posição do botão.
 
 **5. Prevenção contra erros**
-Descrição: A interface deve prevenir erros antes que ocorram.
-Verificação: O sistema previne erros antes que aconteçam?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
+Descrição: A interface deve impedir ações que causem falhas.
+Severidade: 1 – Cosmético
+Local: Campo de upload
+Justificativa: O botão continua ativo mesmo sem arquivo selecionado.
+Recomendação: Desativar botão até que um arquivo seja carregado.
 
 **6. Reconhecimento em vez de lembrança**
-Descrição: O sistema deve minimizar a necessidade de memorização por parte do usuário.
-Verificação: O usuário precisa memorizar informações que poderiam ser exibidas pelo sistema?
-Severidade: Simples – 2
-Local:
-- Detalhamento da análise
-Justificativa:
-A ausência de data e hora dificulta que o usuário identifique uma análise específica sem lembrar números.
+Descrição: O usuário não deve depender da memória para navegar.
+Severidade: 3 – Grave
+Local: Histórico de análises
+Justificativa: O sistema exige que o usuário saiba qual análise deseja consultar sem apresentar filtros.
 Recomendação:
-Exibir data e hora da análise na interface;
-Implementar filtros por data, período e tipo de análise, facilitando a busca e reduzindo dependência de memória.
+- Mostrar datas e nomes personalizados;
+- Adicionar filtros (por tipo e período).
 
 **7. Flexibilidade e eficiência de uso**
-Descrição: Deve oferecer opções de personalização e eficiência a usuários experientes.
-Verificação: O sistema oferece opções rápidas ou personalizáveis?
-Severidade: Cosmético – 1
-Local:
-- Nova análise
-Justificativa:
-Não há opções avançadas de customização da análise.
-Recomendação:
-Permitir escolha de tipos de análise.
+Descrição: Usuários avançados devem ter meios rápidos de interação.
+Severidade: 2 – Simples
+Local: Listagem de resultados
+Justificativa: Não há atalhos ou formas de reorganizar a visualização.
+Recomendação: Permitir ordenação por data, nome ou duração.
 
 **8. Projeto estético e minimalista**
-Descrição: A interface deve apresentar apenas o essencial, sem ruído visual.
-Verificação: A interface apresenta somente informações essenciais?
-Severidade: (vazio)
-Local: (vazio)
-Justificativa: (vazio)
-Recomendação: (vazio)
 
-**9. Ajuda na detecção, diagnóstico e recuperação de erros**
-Descrição: Mensagens de erro devem orientar claramente o usuário na resolução.
-Verificação: As mensagens de erro são claras e ajudam o usuário a corrigir o problema?
-Severidade: Grave – 3
-Local:
-- Sistema como um todo
-Justificativa:
-Não há mensagens de erro implementadas.
+Descrição: A interface deve apresentar organização clara e foco no essencial.
+Severidade: 
+Local: 
+Justificativa: 
 Recomendação:
-Incluir mensagens de erro explicativas que indiquem causa e solução.
+
+**9. Ajuda na detecção e recuperação de erros**
+Descrição: Mensagens de erro devem orientar o usuário para solução.
+Severidade: 2 – Simples
+Local: Exportação
+Justificativa: O erro de falha de exportação não explica o motivo (ex.: falta de internet).
+Recomendação: Incluir texto explicativo e sugestões de como resolver.
 
 **10. Ajuda e documentação**
-Descrição: O sistema deve disponibilizar documentação e ajuda acessível.
-Verificação: O sistema oferece ajuda acessível e orientada às tarefas do usuário?
-Severidade: Grave – 3
-Local:
-- Interface geral
-Justificativa:
-O sistema não possui tutorial nem seção de ajuda.
-Recomendação:
-Criar tutorial inicial e área de ajuda com orientações detalhadas.
+Descrição: Deve ser fácil para o usuário encontrar instruções e suporte.
+Severidade: 3 – Grave
+Local: Navegação geral
+Justificativa: Não existe qualquer seção de ajuda no sistema.
+Recomendação: Implementar central de ajuda e tutorial inicial.
 
 ## **4) FINAL — Avaliação de IHC através de inspeção HEURÍSTICA (UNIFICADA)**
 Resumo Geral da Avaliação
