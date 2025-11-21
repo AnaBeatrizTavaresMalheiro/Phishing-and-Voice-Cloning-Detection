@@ -1044,9 +1044,6 @@ Os resultados são exibidos de forma objetiva, com indicadores de probabilidade 
 # **Entrega 14 (data) \[em andamento/concluído\]**
 
 ## **1. MÉTODO DE AVALIAÇÃO DE USABILIDADE POR OBSERVAÇÃO DO USUÁRIO**
-
-(1 solução por equipe)
-
 Foi realizado um teste de observação com os membros da equipe representando as duas personas principais do sistema CallShield:
 
 -Dra. Fernanda – Perita Judicial (jurídico)
