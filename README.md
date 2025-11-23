@@ -1093,20 +1093,24 @@ Campos aplicados:
 A seguir estão as tabelas individuais com os problemas observados, já ajustadas com base nas respostas do formulário dos usuários.
 
 ### Avaliação por tarefa — Usuário 1: Dra. Fernanda (jurídico)
-|Tarefa|Grau de Sucesso|Total de Erros|Tipo de Erro|Tempo|Satisfação|
-|1|Sucesso Parcial|2|Escolha de arquivo errado; Não entendeu se análise terminou|12s|Confusão leve|
-|2|Insucesso|3|Não achou análise correta; Ordem confusa;|Falta de datas|25s|Insatisfação|
-|3|Sucesso Parcial|1|Não percebeu se o PDF foi exportado|15s|Satisfação moderada|
+| Tarefa | Grau de Sucesso | Total de Erros | Tipo de Erro                                                                                 | Tempo | Satisfação          |
+|--------|------------------|----------------|----------------------------------------------------------------------------------------------|-------|---------------------|
+| 1      | Sucesso Parcial  | 2              | Escolha de arquivo errado; Não entendeu se análise terminou                                 | 12s   | Confusão leve       |
+| 2      | Insucesso        | 3              | Não achou análise correta; Ordem confusa; Falta de datas                                     | 25s   | Insatisfação        |
+| 3      | Sucesso Parcial  | 1              | Não percebeu se o PDF foi exportado                                                          | 15s   | Satisfação moderada |
+
 Observações específicas:
 - Tentou cancelar a análise, mas não havia botão.
 - Reclamou da ausência de datas e filtros no histórico.
 - A troca de tela ao final deixou dúvida: “Já finalizou mesmo?”
 
 ### Avaliação por tarefa — Usuário 2: João (idoso)
-|Tarefa|Grau de Sucesso|Total de Erros|Tipo de Erro|Tempo|Satisfação|
-|1|Insucesso|3|Não reconheceu o ícone de upload mesmo estando visível; Não percebeu início da análise;|Tocou duas vezes por insegurança|40s|Frustração|
-|2|Insucesso|4|Não identificou análises anteriores; Confundiu códigos e nomes|60s|Baixa satisfação|
-|3|Sucesso Parcial|2|Não entendeu se o PDF salvou; Não encontrou o arquivo no aparelho|30s|Confusão|
+| Tarefa | Grau de Sucesso | Total de Erros | Tipo de Erro                                                                                             | Tempo | Satisfação       |
+|--------|------------------|----------------|----------------------------------------------------------------------------------------------------------|-------|------------------|
+| 1      | Insucesso        | 3              | Não reconheceu o ícone de upload mesmo estando visível; Não percebeu início da análise; Tocou duas vezes por insegurança | 40s   | Frustração       |
+| 2      | Insucesso        | 4              | Não identificou análises anteriores; Confundiu códigos e nomes                                           | 60s   | Baixa satisfação |
+| 3      | Sucesso Parcial  | 2              | Não entendeu se o PDF salvou; Não encontrou o arquivo no aparelho                                        | 30s   | Confusão         |
+
 
 Observações específicas — João (idoso)
 - Teve dificuldade em perceber quando a análise estava sendo executada, resultando em toques repetidos no botão.
