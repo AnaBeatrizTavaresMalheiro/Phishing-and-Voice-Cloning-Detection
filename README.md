@@ -721,7 +721,8 @@ João deseja poder atender chamadas com segurança e sentir-se independente nova
 **DIAGRAMA MINIMALISTA**
 <img width="3607" height="2107" alt="Blank board (6)" src="https://github.com/user-attachments/assets/9c354942-290a-440f-9251-de1aae28061b" />
 **DIAGRAMA EXPANDIDO**
-<img width="3607" height="2744" alt="FluxoComplementar" src="https://github.com/user-attachments/assets/cff67ab4-3082-46b5-8d75-c19c090a210f" />
+<img width="1326" height="1376" alt="image" src="https://github.com/user-attachments/assets/33b5e418-3e40-4dd5-91f6-0ff56162ef51" />
+
  
 # **Entrega 11 (data) \[em andamento/concluído\]**
 
